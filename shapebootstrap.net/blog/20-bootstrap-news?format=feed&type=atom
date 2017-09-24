@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="MYOB" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://shapebootstrap.net"/>
+	<id>https://shapebootstrap.net/blog/20-bootstrap-news</id>
+	<updated>2016-05-24T21:59:30+06:00</updated>
+	<author>
+		<name>ShapeBootstrap</name>
+		<email>support@shapebootstrap.net</email>
+	</author>
+	<generator>MYOB</generator>
+	<link rel="self" type="application/atom+xml" href="https://shapebootstrap.net/blog/20-bootstrap-news?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Important things you need to know about Bootstrap 4</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/20-bootstrap-news/55-important-things-you-need-to-know-about-bootstrap-4"/>
+		<published>2016-03-01T22:16:28+06:00</published>
+		<updated>2016-03-01T22:16:28+06:00</updated>
+		<id>https://shapebootstrap.net/blog/20-bootstrap-news/55-important-things-you-need-to-know-about-bootstrap-4</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;The Bootstrap team released the &lt;a href=&quot;https://shapebootstrap.net/blog/13-top-5-features-coming-in-bootstrap-4&quot; target=&quot;_blank&quot;&gt;first alpha version&lt;/a&gt; of the popular front-end framework back in August 2015. In December of the same year, &lt;a href=&quot;http://blog.getbootstrap.com/2015/12/08/bootstrap-4-alpha-2/&quot; target=&quot;_blank&quot;&gt;Bootstrap 4 alpha 2&lt;/a&gt; arrived. More experiments are definitely on the way. While we expect the final package release as soon as possible, here are some important information you should know about Bootstrap 4.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;The Bootstrap team released the &lt;a href=&quot;https://shapebootstrap.net/blog/13-top-5-features-coming-in-bootstrap-4&quot; target=&quot;_blank&quot;&gt;first alpha version&lt;/a&gt; of the popular front-end framework back in August 2015. In December of the same year, &lt;a href=&quot;http://blog.getbootstrap.com/2015/12/08/bootstrap-4-alpha-2/&quot; target=&quot;_blank&quot;&gt;Bootstrap 4 alpha 2&lt;/a&gt; arrived. More experiments are definitely on the way. While we expect the final package release as soon as possible, here are some important information you should know about Bootstrap 4.&lt;/p&gt;
+</content>
+		<category term="Bootstrap News" />
+	</entry>
+</feed>

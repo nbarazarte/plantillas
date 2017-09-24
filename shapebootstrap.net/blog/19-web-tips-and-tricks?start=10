@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="https://shapebootstrap.net/blog/19-web-tips-and-tricks"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="MYOB"/>
+<title>Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+<link href="/blog/19-web-tips-and-tricks?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0"/>
+<link href="/blog/19-web-tips-and-tricks?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0"/>
+<link href="/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link rel="stylesheet" href="/components/com_product/assets/css/magnific-popup.css" type="text/css"/>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=latin" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/font-awesome.min.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/shapebootstrap.icon.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/presets/preset1.css" type="text/css" class="preset"/>
+<style type="text/css">body{font-family:Open Sans,sans-serif;font-weight:normal;}h1{font-family:Open Sans,sans-serif;font-weight:700;}h2{font-family:Open Sans,sans-serif;font-weight:600;}h3{font-family:Open Sans,sans-serif;font-weight:normal;}h4{font-family:Open Sans,sans-serif;font-weight:700;}h5{font-family:Open Sans,sans-serif;font-weight:600;}h6{font-family:Open Sans,sans-serif;font-weight:600;}#sp-bottom{background-color:#3c3c3c;padding:70px 0px 0px;}#sp-footer{background-color:#3c3c3c;}</style>
+<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="/media/system/js/caption.js" type="text/javascript"></script>
+<script src="/components/com_product/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="/components/com_product/assets/js/cart.js" type="text/javascript"></script>
+<script src="/templates/default/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/templates/default/js/jquery.sticky.js" type="text/javascript"></script>
+<script src="/templates/default/js/matchheight.js" type="text/javascript"></script>
+<script src="/templates/default/js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});		var disqus_shortname = 'shapebootstrap';
+		(function () {
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+
+		jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+<meta name="google-site-verification" content="vRFNCRSLlIhragUEpvDvFs0gK3kHISFZqPF6VNe-a8k"/>
+</head>
+<body class="site com-content view-category no-layout no-task itemid-118 en-gb ltr  sticky-header layout-fluid">
+<div class="body-innerwrapper">
+<header id="sp-header"><div class="container"><div class="row"><div id="sp-logo" class="col-xs-8 col-sm-3 col-md-2"><div class="sp-column "><a class="logo" href="/"><h1><img class="sp-default-logo" src="/templates/default/images/presets/preset1/logo.png" alt="ShapeBootstrap"><img class="sp-retina-logo" src="/templates/default/images/presets/preset1/logo@2x.png" alt="ShapeBootstrap" width="177" height="15"></h1></a></div></div><div id="sp-search" class="col-sm-4 col-md-6 hidden-xs"><div class="sp-column "><form id="product-search" action="https://shapebootstrap.net/" method="get"><input type="hidden" name="option" value="com_product"><input type="hidden" name="view" value="products"><input type="hidden" name="Itemid" value="105"><i class="sb-icon-search"></i><input type="text" name="search" placeholder="Search Templates" value=""></form></div></div><div id="sp-account" class="col-xs-4 col-sm-5 col-md-4"><div class="sp-column "><ul><li><a class="btn btn-primary btn-submit-item hidden-sm hidden-xs" href="/login">Start Selling</a></li><li><a class="btn btn-success btn-login hidden-sm hidden-xs" href="/login">Login</a></li><li><a class="btn btn-link btn-login visible-sm visible-xs" href="/login"><i class="fa fa-user"></i></a></li><li><a class="btn btn-default btn-registration hidden-sm hidden-xs" href="/login?view=registration">Create an Account</a></li><li><a class="btn btn-link btn-login visible-sm visible-xs" id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a></li><li><a class="btn btn-link btn-cart hidden-sm hidden-xs" href="/cart"><i class="sb-icon-purchase"></i> <small class="my-cart">0</small></a></li></ul></div></div></div></div></header><section id="sp-navbar" class=" hidden-xs"><div class="container"><div class="row"><div id="sp-categories" class="col-sm-4 col-md-2"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><ul class="product-categories">
+<li>
+<a href="#">Item Categories</a>
+<ul>
+<li><a href="/items/category/html-templates/16-corporate-business">Corporate & Business</a></li>
+<li><a href="/items/category/html-templates/11-admin-templates">Admin Templates</a></li>
+<li><a href="/items/category/html-templates/10-landing-pages">Landing Pages</a></li>
+<li><a href="/items/category/html-templates/9-coming-soon">Coming Soon</a></li>
+<li><a href="/items/category/html-templates/24-creative">Creative</a></li>
+<li><a href="/items/category/html-templates/29-blog-magazine-news">Blog / Magazine / News</a></li>
+<li><a href="/items/category/html-templates/25-wedding">Wedding</a></li>
+<li><a href="/items/category/html-templates/33-ecommerce">eCommerce</a></li>
+<li><a href="/items/category/html-templates/26-miscellaneous">Miscellaneous</a></li>
+<li><a href="/items/category/html-templates/27-entertainment">Entertainment</a></li>
+</ul>
+</li>
+</ul>
+</div></div></div></div><div id="sp-menu" class="col-sm-8 col-md-7"><div class="sp-column "> <div class='sp-megamenu-wrapper'>
+<ul class="sp-megamenu-parent menu-fade hidden-xs"><li class="sp-menu-item"><a href="/">Home</a></li><li class="sp-menu-item"><a href="/items">All Items</a></li><li class="sp-menu-item"><a href="/popular-items">Popular Items</a></li><li class="sp-menu-item hidden"><a href="/free-templates">Free Templates</a></li><li class="sp-menu-item current-item active"><a href="/blog">Blog</a></li><li class="sp-menu-item sp-has-child"><a href="#"><i class="fa fa-support"></i> Help</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="/forum">Community Forum</a></li><li class="sp-menu-item"><a href="/help/contact">Contact Us</a></li><li class="sp-menu-item"><a href="/licenses">Licenses</a></li></ul></div></div></li><li class="sp-menu-item"><a href="/affiliates">Affiliates</a></li></ul> </div>
+</div></div><div id="sp-social" class="col-sm-3 col-md-3 hidden-sm hidden-xs"><div class="sp-column "><ul class="social-icons"><li><a target="_blank" href="https://www.facebook.com/shapebootstrap"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/shapebootstrap"><i class="fa fa-twitter"></i></a></li><li><a target="_blank" href="https://www.pinterest.com/shapebootstrap/"><i class="fa fa-pinterest"></i></a></li></ul></div></div></div></div></section><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-page-title"><div class="container">
+<ol class="breadcrumb">
+<li><a href="/" class="pathway">Home</a></li><li><a href="/blog" class="pathway">Blog</a></li><li class="active">Web Tips and Tricks</li></ol>
+<h2>Blog</h2></div></div></div></div></div></section><section id="sp-main-body"><div class="container"><div class="row"><div id="sp-component" class="col-sm-12 col-md-12"><div class="sp-column "><div id="system-message-container">
+</div>
+<div class="blog" itemscope itemtype="http://schema.org/Blog">
+<div class="items-row row-0 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/53-5-free-bootstrap-table-plugins-for-better-data-presentation">
+<img src="/images/2016/02/24/Bootstrap-table-plugins-for-better-data-presentation.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/53-5-free-bootstrap-table-plugins-for-better-data-presentation" itemprop="url">
+5 free Bootstrap table plugins for better data presentation</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Bootstrap Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/53-5-free-bootstrap-table-plugins-for-better-data-presentation#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-02-24T13:08:18+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+24 February 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:1400"/>
+Hits: 1400</dd>
+</dl>
+</div>
+<p>Bootstrap infrastructure includes several table styles that can fulfill most of your data visualisation needs. You get the basic, simple, row based table design to bordered and colored ones. These built-in table structures can lessen development time a lot. If you need more table functions, you may use additional plugins for this. I’ve gathered 5 free Bootstrap table plugins. Let’s see them.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-1 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/52-customize-bootstrap-designs-to-make-it-more-attractive">
+<img src="/images/2016/02/23/Customize-Bootstrap-designs-to-make-it-more-attractive.png" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/52-customize-bootstrap-designs-to-make-it-more-attractive" itemprop="url">
+Customize Bootstrap designs to make it more attractive</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Bootstrap Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/52-customize-bootstrap-designs-to-make-it-more-attractive#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-02-22T18:31:37+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+22 February 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:1089"/>
+Hits: 1089</dd>
+</dl>
+</div>
+<p>Many people use Bootstrap because of its responsive nature and tons of built-in elements. The framework drastically abates the hassle and time required by developers. There are ready-made button designs, menu structures, scripts and more loaded inside Bootstrap. It’s always a good idea to do some customization to your Bootstrap design so it looks more innovative and of course, more beautiful. Let’s see some ways.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-2 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/51-15-fantastic-free-jquery-sliders-for-bootstrap-sites">
+<img src="/images/2016/02/19/free-jQuery-sliders-for-Bootstrap-sites.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/51-15-fantastic-free-jquery-sliders-for-bootstrap-sites" itemprop="url">
+15 fantastic free jQuery sliders for Bootstrap sites</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/51-15-fantastic-free-jquery-sliders-for-bootstrap-sites#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-02-19T17:08:41+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+19 February 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:1489"/>
+Hits: 1489</dd>
+</dl>
+</div>
+<p>Bootstrap framework comes with lots of built-in components and plugins with that you can build a great template for a stunning website. Moreover, there are many third-party elements to extend the platform’s functionality. I’ve gathered 15 amazing and free jQuery sliders for Bootstrap.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-3 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/50-deadly-email-marketing-mistakes-you-must-avoid">
+<img src="/images/2016/02/16/Deadly-email-marketing-mistakes-you-must-avoid.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/50-deadly-email-marketing-mistakes-you-must-avoid" itemprop="url">
+Deadly email marketing mistakes you must avoid</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/50-deadly-email-marketing-mistakes-you-must-avoid#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-02-16T15:45:40+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+16 February 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:515"/>
+Hits: 515</dd>
+</dl>
+</div>
+<p>A well-curated email subscriber list is an asset for any business. Email is considered as one of the most effective marketing media. That’s why you must be careful while designing email newsletter or marketing campaigns. Today I’m gonna discuss some deadly mistakes that you must avoid in email newsletter marketing.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-4 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/49-how-to-wow-your-website-visitors-with-animations">
+<img src="/images/2016/02/09/Wow-your-website-visitors-with-animations.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/49-how-to-wow-your-website-visitors-with-animations" itemprop="url">
+How to wow your website visitors with animations</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/49-how-to-wow-your-website-visitors-with-animations#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-02-09T13:56:53+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+09 February 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:965"/>
+Hits: 965</dd>
+</dl>
+</div>
+<p>Animated elements are trending on the modern web. One can easily attract visitors’ attention with lively contents like animated buttons, images, background videos etc. To delight your audience, you can add animations to your web pages in several ways. Let’s see few of them.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-5 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/46-7-best-css-tools-to-use-in-2016">
+<img src="/images/2016/01/27/css-tools-2016.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/46-7-best-css-tools-to-use-in-2016" itemprop="url">
+7 best CSS tools to use in 2016</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/46-7-best-css-tools-to-use-in-2016#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-01-27T16:14:37+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+27 January 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:2512"/>
+Hits: 2512</dd>
+</dl>
+</div>
+<p>The modern web and CSS are closely related with each other. With increased use and integration with popular apps like Photoshop and Sketch, CSS is proving its widespread acceptance continuously. Today I’ll introduce you to 7 top CSS tools to use in 2016.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-6 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/45-top-20-google-web-fonts-for-2016">
+<img src="/images/2016/01/22/20-Google-web-fonts-for-2016 new.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/45-top-20-google-web-fonts-for-2016" itemprop="url">
+Top 20 Google web fonts for 2016</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/45-top-20-google-web-fonts-for-2016#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-01-22T15:49:06+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+22 January 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:2102"/>
+Hits: 2102</dd>
+</dl>
+</div>
+<p>Hello designers, what’s up? I’m back again with some design (typography) stuffs. Today I’ll show you the best 20 Google fonts to use in 2016. This list has been crafted after exploring the web and collecting information from latest trendy designs. So I hope you will find it useful. Let’s see!</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-7 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/42-5-top-web-design-trends-you-must-care-for-2016">
+<img src="/images/2016/01/05/feature-trend.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/42-5-top-web-design-trends-you-must-care-for-2016" itemprop="url">
+5 top web design trends you must care for 2016</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/42-5-top-web-design-trends-you-must-care-for-2016#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-01-05T12:24:00+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+05 January 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:1597"/>
+Hits: 1597</dd>
+</dl>
+</div>
+<p>The year 2016 has just started. Web designers and developers got to take care about new trends and innovations. It’s very crucial to stay up to date and take actions accordingly. For dev and design people, following trends is a big necessity. This makes sure that the efforts you are giving will pay back. Let’s see top 5 trends designers and developers must care about in 2016.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-8 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/41-how-to-convert-a-jpg-png-image-to-svg">
+<img src="/images/2016/01/04/convert-a-JPG_PNG-to-SVG.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/41-how-to-convert-a-jpg-png-image-to-svg" itemprop="url">
+How to convert a JPG/PNG image to SVG?</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/41-how-to-convert-a-jpg-png-image-to-svg#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2016-01-04T17:11:51+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+04 January 2016 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:1282"/>
+Hits: 1282</dd>
+</dl>
+</div>
+<p>Scalable Vector Graphics (SVG) is a vector image format that offers better scalability than pixel based image formats like JPG, PNG etc. SVG images can be zoomed almost infinitely. A PNG image can also be zoomed to a certain extent without losing much of its quality, but SVGs are more scalable than PNGs and more efficient in terms of file size. </p>
+</article>
+ 
+</div> 
+</div> 
+<div class="items-row row-9 row clearfix">
+<div class="col-sm-12">
+<article class="item column-1" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="entry-image intro-image">
+<a href="/blog/19-web-tips-and-tricks/37-10-instagram-profiles-every-designer-must-follow">
+<img src="/images/2015/12/28/10-Instagram-profiles-every-designer-must-follow.jpg" alt="" itemprop="thumbnailUrl"/>
+</a>
+</div>
+<div class="entry-header">
+<h2 itemprop="name">
+<a href="/blog/19-web-tips-and-tricks/37-10-instagram-profiles-every-designer-must-follow" itemprop="url">
+10 Instagram profiles every designer must follow</a>
+</h2>
+<dl class="article-info">
+<dt class="article-info-term"></dt>
+<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<i class="fa fa-user"></i>
+<span itemprop="name" data-toggle="tooltip" title="Written by ">Arafat Bin Sultan</span> </dd>
+<dd class="category-name">
+<i class="fa fa-folder-open-o"></i>
+<a href="/blog/19-web-tips-and-tricks" itemprop="genre" data-toggle="tooltip" title="Article Category">Web Tips and Tricks</a> </dd>
+<dd class="comment">
+<i class="fa fa-comments-o"></i>
+<span class="comments-anchor">
+<a href="https://shapebootstrap.net/blog/19-web-tips-and-tricks/37-10-instagram-profiles-every-designer-must-follow#disqus_thread"></a>
+</span>
+</dd>
+<dd class="create">
+<i class="fa fa-clock-o"></i>
+<time datetime="2015-12-28T17:02:15+06:00" itemprop="dateCreated" data-toggle="tooltip" title="Created Date">
+28 December 2015 </time>
+</dd>
+<dd class="hits">
+<span class="fa fa-eye"></span>
+<meta itemprop="interactionCount" content="UserPageVisits:885"/>
+Hits: 885</dd>
+</dl>
+</div>
+<p>Hello designers, happy new year. Hopefully you’re enjoying the season. You know, Instagram is an amazing medium to share images online. It provides some great filters and tools to retouch photos. Today I’ll tell you about 10 Instagram users every designer should follow to get inspiration.</p>
+</article>
+ 
+</div> 
+</div> 
+<div class="pagination-wrapper">
+<ul class="pagination"><li><a class='' href='/blog/19-web-tips-and-tricks' title='Start'>Start</a></li><li><a class='previous' href='/blog/19-web-tips-and-tricks' title='&laquo;'>&laquo;</a></li><li><a class='' href='/blog/19-web-tips-and-tricks' title='1'>1</a></li><li class='active'><a>2</a></li><li><a class='' href='/blog/19-web-tips-and-tricks?start=20' title='3'>3</a></li><li><a class='' href='/blog/19-web-tips-and-tricks?start=30' title='4'>4</a></li><li><a class='next' href='/blog/19-web-tips-and-tricks?start=20' title='&raquo;'>&raquo;</a></li><li><a class='' href='/blog/19-web-tips-and-tricks?start=30' title='End'>End</a></li></ul> </div>
+</div>
+</div></div></div></div></section><section id="sp-bottom"><div class="container"><div class="row"><div id="sp-bottom1" class="col-sm-6 col-md-3"><div class="sp-column "><div class="sp-module _menu"><h3 class="sp-module-title">Knowledgebase</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-114"><a href="/copyright">Copyright</a></li><li class="item-116"><a href="/buyers-faq">Buyers Faq</a></li><li class="item-117"><a href="/sellers-faq">Sellers Faq</a></li><li class="item-115"><a href="/submission-guidelines">Submission Guidelines</a></li><li class="item-148"><a href="/payout-terms">Seller Payout Terms</a></li></ul>
+</div></div></div></div><div id="sp-bottom2" class="col-sm-6 col-md-3"><div class="sp-column "><div class="sp-module _menu"><h3 class="sp-module-title">Support</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-119"><a href="/forum">Community Forum</a></li><li class="item-128"><a href="/licenses">Licenses</a></li><li class="item-112"><a href="/terms-conditions">Terms &amp; Conditions</a></li><li class="item-113"><a href="/privacy-policy">Privacy Policy</a></li></ul>
+</div></div></div></div><div id="sp-bottom3" class="col-sm-6 col-md-6"><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Newsletter</h3><div class="sp-module-content"><div class="sendy subscribe" id="sendy-95">
+<div class="intro">
+Want more Bootstrap themes & templates? Subscribe to our mailing list to receive an update when new items arrive! </div>
+<form id="sendy-subscribe-95" class="row">
+<div class="col-sm-8">
+<input type="text" name="email" class="form-control" placeholder="Email Address"/>
+<p></p>
+</div>
+<div class="col-sm-4">
+<button type="submit" name="Sign up" class="btn btn-success btn-block btn-lg">Sign Up</button>
+</div>
+<input type="hidden" name="mid" value="95"/>
+</form>
+<small>We never spam!</small>
+</div>
+<script>
+    jQuery('form[id="sendy-subscribe-95"]').submit(function (form)
+    {
+        var formId = '#' + form.target.id;
+        var email = jQuery(formId + ' input[name=email]').val();
+        var url = 'email=' + email + '&f58c1dec3597e7b9f2759362373e5369=1&mid=95';
+        jQuery("#sendy-95").fadeOut('500');
+        jQuery.ajax({
+            url: 'https://shapebootstrap.net/modules/mod_sendy/ajax/subscribe.php',
+            data: url,
+            type: "POST",
+            dataType: 'text json',
+            success: function (ret)
+            {
+                if (ret.success == true)
+                {
+                    jQuery("#sendy-95").html(ret.html).fadeIn('1000');
+                }
+                else
+                {
+                    jQuery("#sendy-95").html("There was an error processing your subscription.").fadeIn('1000');
+                }
+            }
+        });
+        return false; // Don't actually submit the form
+    });
+</script></div></div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-6 col-md-6"><div class="sp-column "><span class="sp-copyright"> © 2016 ShapeBootstrap. Some Rights Reserved. A <a target="_blank" href="http://www.joomshaper.com">JoomShaper</a> Family.</span></div></div><div id="sp-footer2" class="col-sm-6 col-md-6"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<div class="custom">
+<div class="text-right"><img class="img-responsive" style="display: inline-block;" src="/images/payment-methods.png" alt="Payment Methods"/></div></div>
+</div></div></div></div></div></div></footer>
+<div class="offcanvas-menu">
+<a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
+<div class="offcanvas-inner">
+<div class="sp-module "><h3 class="sp-module-title">ShapeBootstrap</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-101"><a href="/">Home</a></li><li class="item-105"><a href="/items">All Items</a></li><li class="item-111"><a href="/popular-items">Popular Items</a></li><li class="item-106"><a href="/free-templates">Free Templates</a></li><li class="item-118 current active"><a href="/blog">Blog</a></li><li class="item-125 deeper parent"><a href="#">Help</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-125" role="button" aria-expanded="false" aria-controls="collapse-menu-125"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span><ul class="collapse" id="collapse-menu-125"><li class="item-126"><a href="/forum">Community Forum</a></li><li class="item-123"><a href="/help/contact">Contact Us</a></li><li class="item-129"><a href="/licenses">Licenses</a></li></ul></li><li class="item-131"><a href="/affiliates">Affiliates</a></li></ul>
+</div></div>
+</div>
+</div>
+<div class="offcanvas-overlay"></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10309676-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

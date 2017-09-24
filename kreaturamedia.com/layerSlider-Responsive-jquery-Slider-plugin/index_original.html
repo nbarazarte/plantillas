@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta charset="UTF-8">
+		<title>LayerSlider Responsive jQuery Slider Plugin - Kreatura Media</title>
+
+		<!-- Fonts & Styles -->
+		<link rel="stylesheet" href="../wp-content/themes/kreatura/style.css" type="text/css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7CIndie+Flower%7COswald:300,400,700%7CRoboto+Condensed:300,400,700%7COpen+Sans:400,300,600,700,400italic' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/png" href="../wp-content/themes/kreatura/img/favicon.png">
+		<link rel="icon" type="image/png" href="../wp-content/themes/kreatura/img/favicon_large.png" sizes="192x192">
+
+		
+		<meta property="fb:app_id" content="211785875510930">
+		<meta property="og:image" content="https://kreaturamedia.com/envato/fb/layerslider.png">
+
+		
+<!-- This site is optimized with the Yoast SEO plugin v3.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="LayerSlider is the most advanced Responsive jQuery Slider Plugin with the famous Parallax Effect and optional 3D Transitions!"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="../layerslider-responsive-jquery-slider-plugin/index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="LayerSlider Responsive jQuery Slider Plugin - Kreatura Media" />
+<meta property="og:description" content="LayerSlider is the most advanced Responsive jQuery Slider Plugin with the famous Parallax Effect and optional 3D Transitions!" />
+<meta property="og:url" content="https://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin/" />
+<meta property="og:site_name" content="Kreatura Media" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="LayerSlider is the most advanced Responsive jQuery Slider Plugin with the famous Parallax Effect and optional 3D Transitions!" />
+<meta name="twitter:title" content="LayerSlider Responsive jQuery Slider Plugin - Kreatura Media" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Kreatura Media &raquo; LayerSlider Responsive jQuery Slider Plugin Comments Feed" href="https://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kreaturamedia.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider-css'  href='../wp-content/plugins/LayerSlider/static/css/layerslider.css%3Fver=5.6.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-layerslider.css-css'  href='../wp-content/themes/kreatura/css/style-layerslider.css%3Fver=1460585578.css' type='text/css' media='all' />
+<link rel='stylesheet' id='weatherslider_css-css'  href='../wp-content/plugins/WeatherSlider/css/weatherslider.css%3Fver=2.6.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpstickies_css-css'  href='../wp-content/plugins/wpStickies/css/wpstickies.css%3Fver=2.0.0.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js%3Fver=1.12.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPStickies = {"ajaxurl":"https:\/\/kreaturamedia.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/wpStickies/js/wpstickies.kreaturamedia.jquery.js%3Fver=2.0.0'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.6" />
+<link rel='shortlink' href='../index.html%3Fp=60.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed%3Furl=https%253A%252F%252Fkreaturamedia.com%252Flayerslider-responsive-jquery-slider-plugin%252F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed%3Furl=https%253A%252F%252Fkreaturamedia.com%252Flayerslider-responsive-jquery-slider-plugin%252F&amp;format=xml" />
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.wps-example').wpStickies({
+			settings : {
+				role : 'non-user',
+			    allowToCreate : false,
+			    showMessages : true,
+			    allowToModify : true,
+			    alwaysVisible : true,
+			    imageMinWidth : 150,
+			    imageMinHeight : 100
+			},
+			position : {
+			    spotBubbleDirection : 'top',
+			    autoChangeDirection : true,
+			    spotBubbleDistance : 2,
+			    areaMinWidth : 25,
+			    areaMinHeight : 25,
+			    spotButtonsPosition : 'left'
+			},
+			animation : {
+			    directionIn : 'bottom',
+			    directionOut : 'fade',
+			    easingIn : 'easeOutQuart',
+			    easingOut : 'easeInBack',
+			    durationIn : 500,
+			    durationOut : 250,
+			    delay : 30,
+			    spotBubbleDuration : 200,
+			    spotBubbleEasing : 'easeOutBack'
+			},
+			language : {
+			    areaCaption : 'add a name or caption',
+			    spotTitle : 'Sample Title',
+			    spotContent : 'You can write here text and you can also use HTML code. For example you can simply include an image or a link.',
+			    btnGoogle : 'Google',
+			    btnYouTube : 'YouTube',
+			    btnVimeo : 'Vimeo',
+			    btnWikipedia : 'Wikipedia',
+			    btnFacebook : 'Facebook',
+			    msgOver : 'wpStickies: Click on the image to create a new spot or draw an area to tag faces.',
+			    msgDragSpot : 'wpStickies: You can drag this sticky anywhere over the image by taking and moving the spot.',
+			    msgDragArea : 'wpStickies: You can drag this sticky anywhere over the image by taking and moving the area.',
+			    msgBtnSave : 'wpStickies: SAVE CHANGES',
+			    msgBtnRemove : 'wpStickies: REMOVE THIS STICKY',
+			    msgBtnReposition : 'wpStickies: CHANGE THE DIRECTION OF THE BUBBLE',
+			    msgBtnColor : 'wpStickies: CHANGE THE COLOR OF THE BUBBLE',
+			    msgBtnSize : 'wpStickies: CHANGE THE WIDTH OF THE BUBBLE',
+			    msgSave : 'wpStickies: STICKY SAVED',
+			    msgRemove : 'wpStickies: STICKY REMOVED',
+			    confRemove : 'wpStickies: You clicked to remove this sticky. If you confirm, it will be permanently removed from the database. Are you sure?',
+			    msgDisabled : 'Disable wpStickies on this image'
+			}
+
+		});
+	});
+</script>
+		<!--[if lt IE 9]>
+			<script src="/wp-content/themes/kreatura/js/html5.js"></script>
+		<![endif]-->
+
+	</head>
+	<body class="page page-id-60 page-template-default">
+
+		<!-- Version recommend -->
+
+		<h3 class="small version-recommender">Looking for the <a href="../layerslider-responsive-wordpress-slider-plugin/index.html">WordPress version</a> of this plugin?</h3>
+		<!-- Top Menu -->
+
+		<nav id="topmenu">
+			<div class="sizer">
+				<ul id="menu-header" class="menu"><li id="menu-item-94" class="submenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="WordPress plugins" href="../index.html%3Fp=56.html">WordPress plugins</a><div class="list" id="wordpress-plugins"><div class="list-helper"></div><b></b><ul class="sub-menu">	<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="LayerSlider Responsive WordPress Slider Plugin" href="../layerslider-responsive-wordpress-slider-plugin/index.html">LayerSlider<span>Responsive WordPress Slider Plugin</span></a></li>
+	<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="wpStickies Premium Image Tagging Plugin for WordPress" href="../index.html%3Fp=69.html">wpStickies<span>Premium Image Tagging Plugin for WordPress</span></a></li>
+	<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="WeatherSlider Premium WordPress Weather Widget" href="../index.html%3Fp=72.html">WeatherSlider<span>Premium WordPress Weather Widget</span></a></li>
+</ul></div></li>
+<li id="menu-item-93" class="submenu menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a title="jQuery plugins" href="../index.html%3Fp=58.html">jQuery plugins</a><div class="list" id="wordpress-plugins"><div class="list-helper"></div><b></b><ul class="sub-menu">	<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item"><a title="LayerSlider Responsive jQuery Slider Plugin" href="../layerslider-responsive-jquery-slider-plugin/index.html">LayerSlider<span>Responsive jQuery Slider Plugin</span></a></li>
+	<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="WeatherSlider Premium jQuery Weather Widget" href="../index.html%3Fp=73.html">WeatherSlider<span>Premium jQuery Weather Widget</span></a></li>
+</ul></div></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About us" href="../index.html">About us</a></li>
+</ul>
+				<div id="mobilemenu">
+					<select>
+						<option selected="selected">CHOOSE A PRODUCT   </option>
+						<option data-url="https://kreaturamedia.com/layerslider-responsive-wordpress-slider-plugin/" >LayerSlider WP</option>
+						<option data-url="https://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin/" selected>LayerSlider jQuery</option>
+						<option data-url="https://kreaturamedia.com/weatherslider-premium-wordpress-weather-widget/" >WeatherSlider WP</option>
+						<option data-url="https://kreaturamedia.com/weatherslider-premium-jquery-weather-widget/" >WeatherSlider jQuery</option>
+						<option data-url="https://kreaturamedia.com/wpstickies-premium-image-tagging-plugin-for-wordpress/" >wpStickies</option>
+					</select>
+				</div>
+			</div>
+		</nav>
+ <header>
+
+	<a id="get" href="http://codecanyon.net/item/layerslider-responsive-jquery-slider-plugin/922100"><span>Get this plugin now!<i>Only $11!</i></span></a>
+
+	<div class="sizer">
+
+		<!-- SOCIAL SHARE  START -->
+				<div id="sh">
+
+			
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkreaturamedia.com%2Flayerslider-responsive-jquery-slider-plugin%2F" class="sh-icon icon-fb"><span>Share it!</span></a>
+			<a href="https://www.twitter.com/share?url=https%3A%2F%2Fkreaturamedia.com%2Flayerslider-responsive-jquery-slider-plugin%2F&amp;text=Check+out+LayerSlider%2C+an+awesome+%23jQuery+%23slider+%23plugin%21&amp;via=kreaturamedia" class="sh-icon icon-tw"><span>Tweet it!</span></a>
+			<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fkreaturamedia.com%2Flayerslider-responsive-jquery-slider-plugin%2F&amp;media=https%3A%2F%2Fkreaturamedia.com%2Fenvato%2Ffb%2Flayerslider.png&amp;description=Check+out+LayerSlider%2C+an+awesome+%23jQuery+%23slider+%23plugin%21" class="sh-icon icon-p"><span>Pin it!</span></a>
+			<a href="https://plus.google.com/share?url=https%3A%2F%2Fkreaturamedia.com%2Flayerslider-responsive-jquery-slider-plugin%2F" class="sh-icon icon-gp"><span>Share it!</span></a>
+
+		</div>
+		<!-- SOCIAL SHARE  END -->
+
+		<div class="content">
+
+			<h1>LayerSlider <span class="ver">5</span><span>Responsive jQuery Slider Plugin</span></h1>
+
+			<nav class="hideonmobile">
+				<ul>
+					<li><a href="../layerslider-responsive-jquery-slider-plugin/index.html">Responsive demo slider</a><div class="new">NEW</div></li>
+					<li><a href="../layerslider-jquery-full-width-slider/index.html">Full width demo slider</a><div class="new">NEW</div></li>
+					<li><a href="../layerslider-jquery-content-slider/index.html">Content slider</a><div class="new">NEW</div></li>
+					<li><a href="../layerslider-jquery-carousel/index.html">Carousel</a></li>
+					<li><a href="../layerslider-jquery-2d-demo-slider/index.html">Old 2D slider</a></li>
+					<li><a href="../layerslider-jquery-3d-demo-slider/index.html">Old 3D slider</a></li>
+					<li><a href="../layerslider-jquery-api-demo/index.html">API demo</a></li>
+					<li><a href="../layerslider-responsive-jquery-slider-plugin/index.html#features">Features</a></li>
+				</ul>
+			</nav>
+			<div class="showonmobile">
+				<select>
+					<option disabled selected>Select a demo slider</option>
+					<option value="/layerslider-responsive-jquery-slider-plugin/">Responsive demo slider</option>
+					<option value="/layerslider-jquery-full-width-slider/">Full width demo slider</option>
+					<option value="/layerslider-jquery-content-slider/">Content slider</option>
+					<option value="/layerslider-jquery-carousel/">Carousel</option>
+					<option value="/layerslider-jquery-2d-demo-slider/">Old 2D slider</option>
+					<option value="/layerslider-jquery-3d-demo-slider/">Old 3D slider</option>
+					<option value="/layerslider-jquery-api-demo/">API demo</option>
+				</select>
+			</div>
+		</div>
+
+	</div>
+
+</header>
+
+<div id="content">
+
+<div class="bg-top-container">
+	<img class="bg-top" alt="Gradient Background Top" src="../wp-content/themes/kreatura/img/bg-white-grad-top.png">	
+</div>
+<div class="bg"></div>
+
+<div class="sizer">
+<div class="slider-container"><div id="layerslider_29" class="ls-wp-container" style="width:1280px;height:720px;max-width:1280px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;"><img src="../wp-content/uploads/2013/12/bg.jpg" class="ls-bg" alt="bg" /><img class="ls-l" style="top:0px;left:0px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;easingin:linear;offsetxout:0;durationout:6000;showuntil:1;easingout:linear;" src="../wp-content/uploads/2013/12/bg21.jpg" alt=""><h1 class="ls-l" style="top:60px;left:800px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:40px;color:#286e89;white-space: nowrap;" data-ls="offsetxin:50;durationin:3000;rotateyin:60;transformoriginin:right 50% 0;offsetxout:-50;durationout:3000;showuntil:400;rotateyout:-60;transformoriginout:left 50% 0;">KREATURA MEDIA</h1><h2 class="ls-l" style="top:100px;left:801px;font-weight: 500;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#fa6b4b;white-space: nowrap;" data-ls="offsetxin:-50;durationin:3000;delayin:500;rotateyin:-60;transformoriginin:left 50% 0;offsetxout:50;durationout:3000;showuntil:1;rotateyout:60;transformoriginout:right 50% 0;">presents</h2><img class="ls-l" style="top:450px;left:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1000;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:750;rotateyout:90;transformoriginout:right -50% 0;" src="../wp-content/uploads/2013/12/slide-d-5-5.png" alt=""><img class="ls-l" style="top:450px;left:250px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1300;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:750;rotateyout:90;transformoriginout:left -50% 0;" src="../wp-content/uploads/2013/12/slide-d-5-6.png" alt=""><img class="ls-l" style="top:300px;left:250px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1600;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;durationout:500;rotateyout:90;skewyout:1;transformoriginout:left 50% 0;" src="../wp-content/uploads/2013/12/slide-d-5-4.png" alt=""><img class="ls-l" style="top:300px;left:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1900;rotateyin:-90;transformoriginin:right 50% 0;offsetxout:0;durationout:750;rotateyout:90;transformoriginout:right 50% 0;" src="../wp-content/uploads/2013/12/slide-d-5-3.png" alt=""><img class="ls-l" style="top:150px;left:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2200;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;durationout:750;rotateyout:90;transformoriginout:right 150% 0;" src="../wp-content/uploads/2013/12/slide-d-5-1.png" alt=""><img class="ls-l" style="top:150px;left:250px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2500;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:750;rotateyout:90;transformoriginout:left 150% 0;" src="../wp-content/uploads/2013/12/slide-d-5-2.png" alt=""><h1 class="ls-l" style="top:65px;left:80px;font-weight: 500; text-align: center; opacity: .5;width:340px;font-family:Oswald, Lato, 'Open Sans', HelveticaNeue-UltraLight, HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, serif-Light, HelveticaNeue, Helvetica, Arial, serif;font-size:60px;color:#a14730;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2500;delayin:3000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotateout:-90;transformoriginout:left bottom 0;">LAYERSLIDER</h1><p class="ls-l" style="top:150px;left:500px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#fa6b4b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:3300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">GREENSOCK ENGINE</p><p class="ls-l" style="top:190px;left:500px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:3700;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">with the latest technologies</p><p class="ls-l" style="top:250px;left:500px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#fa6b4b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:4000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">SMOOTH RENDERING</p><p class="ls-l" style="top:290px;left:500px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:4400;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">with hardware-acceleration</p><p class="ls-l" style="top:350px;left:500px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#fa6b4b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:4700;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">NEW TRANSITIONS</p><p class="ls-l" style="top:390px;left:499px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:5100;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">slide, fade, scale, skew and rotate layers even in 3D</p><p class="ls-l" style="top:450px;left:500px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#fa6b4b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:5400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">CLEANER MARKUP</p><p class="ls-l" style="top:490px;left:499px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:5800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">working with the plugin is more easy</p></div><div class="ls-slide" data-ls="slidedelay:9500;transition2d:5;timeshift:-3000;"><img src="../wp-content/uploads/2013/12/bg4.jpg" class="ls-bg" alt="LayerSlider 3D Responsive WordPress Slider Plugin" /><p class="ls-l" style="top:-17px;left:915px;opacity: .3; font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:200px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1000;easingin:linear;scalexin:0;scaleyin:0;offsetxout:0;durationout:2000;showuntil:1;easingout:linear;scalexout:2;scaleyout:2;">&amp;</p><h1 class="ls-l" style="top:60px;left:800px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:40px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:3000;rotateyin:60;transformoriginin:right 50% 0;offsetxout:-50;durationout:3000;showuntil:400;rotateyout:-60;transformoriginout:left 50% 0;">RESPONSIVE</h1><h2 class="ls-l" style="top:100px;left:801px;font-weight: 500;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#286e89;white-space: nowrap;" data-ls="offsetxin:-50;durationin:3000;delayin:500;rotateyin:-60;transformoriginin:left 50% 0;offsetxout:50;durationout:3000;showuntil:1;rotateyout:60;transformoriginout:right 50% 0;">mobile ready</h2><h1 class="ls-l" style="top:497px;left:788px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#29768f;border-radius:4px;white-space: nowrap;" data-ls="offsetxin:0;durationin:4000;delayin:2000;rotateyin:450;transformoriginin:right 50% 0;offsetxout:0;durationout:500;showuntil:1;easingout:easeInBack;rotateyout:-90;transformoriginout:right 50% 0;">VERSION</h1><h3 class="ls-l" style="top:220px;left:912px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:400px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:4000;delayin:2000;rotateyin:450;transformoriginin:left 50% 0;offsetxout:0;durationout:500;showuntil:1;easingout:easeInBack;rotateyout:90;transformoriginout:left 50% 0;">5</h3><h1 class="ls-l" style="top:461px;left:767px;font-weight: 300; text-align: right;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:3500;delayin:6500;easingin:easeOutElastic;rotateyin:-90;transformoriginin:right 50% 0;offsetxout:0;durationout:500;rotateyout:-90;transformoriginout:right 50% 0;"><span style="color: #286e89;">WITH HUGE</span><br>AND</h1><h3 class="ls-l" style="top:461px;left:943px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:3500;delayin:6500;easingin:easeOutElastic;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:500;rotateyout:90;transformoriginout:left 50% 0;"><span style="color: #286e89;">PERFORMANCE</span><br>FEATURE UPDATE</h3><img class="ls-l" style="top:180px;left:-82px;width:765px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;durationin:2000;delayin:1000;offsetxout:-100;offsetyout:50;durationout:2000;showuntil:2010;" src="../wp-content/uploads/2013/12/slide-a-1.png" alt=""><img class="ls-l" style="top:495px;left:135px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;durationin:2000;delayin:1000;offsetxout:-100;offsetyout:50;durationout:2000;showuntil:2010;" src="../wp-content/uploads/2013/12/slide-a-2.png" alt=""><img class="ls-l" style="top:275px;left:135px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;durationin:2000;delayin:1000;offsetxout:0;durationout:1500;showuntil:500;scalexout:1.2;scaleyout:1.2;" src="../wp-content/uploads/2013/12/slide-a-3.png" alt=""><img class="ls-l" style="top:275px;left:135px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:3500;scalexin:1.5;scaleyin:1.5;offsetxout:-100;offsetyout:50;durationout:2000;showuntil:1;" src="../wp-content/uploads/2013/12/slide-a-4.png" alt=""><img class="ls-l" style="top:476px;left:436px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1;delayin:3498;offsetxout:0;durationout:750;showuntil:1;easingout:easeOutSine;scalexout:10;scaleyout:10;" src="../wp-content/uploads/2013/12/slide-a-6.png" alt=""><img class="ls-l" style="top:475px;left:383px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;delayin:2500;offsetxout:0;offsetyout:bottom;durationout:1000;showuntil:1;" src="../wp-content/uploads/2013/12/slide-a-5.png" alt=""><div class="ls-l" style="top:180px;left:610px;width:10px;height:400px;background:#29768f;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:6000;scaleyin:0;transformoriginin:50% bottom 0;offsetxout:0;durationout:500;scaleyout:0;transformoriginout:50% bottom 0;"></div><div class="ls-l" style="top:530px;left:590px;opacity: .5;width:10px;height:50px;background:#ffffff;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:6000;scaleyin:0;transformoriginin:50% bottom 0;offsetxout:0;durationout:500;scaleyout:0;transformoriginout:50% bottom 0;"></div><p class="ls-l" style="top:589px;left:533px;font-style: italic; text-align: center; font-weight: 500; opacity: .75;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;line-height:25px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:6500;scalexin:2;scaleyin:2;offsetxout:0;durationout:500;scalexout:2;scaleyout:2;">8x<br>performance</p><div class="ls-l" style="top:380px;left:410px;width:10px;height:200px;background:#29768f;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:6500;scaleyin:0;transformoriginin:50% bottom 0;offsetxout:0;durationout:500;scaleyout:0;transformoriginout:50% bottom 0;"></div><div class="ls-l" style="top:530px;left:390px;opacity: .5;width:10px;height:50px;background:#ffffff;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:6500;scaleyin:0;transformoriginin:50% bottom 0;offsetxout:0;durationout:500;scaleyout:0;transformoriginout:50% bottom 0;"></div><p class="ls-l" style="top:589px;left:349px;font-style: italic; text-align: center; font-weight: 500; opacity: .75;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;line-height:25px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:7000;scalexin:2;scaleyin:2;offsetxout:0;durationout:500;scalexout:2;scaleyout:2;">many new<br>features</p><img class="ls-l" style="top:520px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:6500;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-responsive.png" alt=""><img class="ls-l" style="top:450px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:6700;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-layers.png" alt=""><img class="ls-l" style="top:380px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:6900;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-mobile.png" alt=""><img class="ls-l" style="top:310px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7100;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-options.png" alt=""><img class="ls-l" style="top:240px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7300;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-performance.png" alt=""><img class="ls-l" style="top:170px;left:200px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7500;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-slideshow.png" alt=""><img class="ls-l" style="top:520px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7000;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-youtube.png" alt=""><img class="ls-l" style="top:450px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7200;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-vimeo.png" alt=""><img class="ls-l" style="top:380px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7400;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-html5.png" alt=""><img class="ls-l" style="top:310px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7600;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-ios.png" alt=""><img class="ls-l" style="top:240px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:7800;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-android.png" alt=""><img class="ls-l" style="top:170px;left:130px;opacity: .75;width:60px;white-space: nowrap;" data-ls="offsetxin:-50;delayin:8000;rotatein:90;scalexin:3;scaleyin:3;transformoriginin:25% 25% 0;offsetxout:-50;rotateout:90;scalexout:0.5;scaleyout:0.5;" src="../wp-content/uploads/2013/12/feature-wordpress.png" alt=""></div><div class="ls-slide" data-ls="slidedelay:8000;transition2d:4;"><img src="../wp-content/uploads/2013/12/slide-b-bg.jpg" class="ls-bg" alt="About us" /><p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">introducing</p><p class="ls-l" style="top:50%;left:50%;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">PARALLAX LAYERS</p><img class="ls-l" style="top:30%;left:50%;width:120%;height:auto;white-space: nowrap;" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;parallaxlevel:-2;" src="../wp-content/uploads/2013/12/slide-b-1.png" alt=""><img class="ls-l" style="top:353px;left:237px;white-space: nowrap;" data-ls="offsetxin:50;durationin:2000;delayin:1500;offsetxout:50;durationout:1000;parallaxlevel:1;" src="../wp-content/uploads/2013/12/slide-b-2.png" alt=""><img class="ls-l" style="top:453px;left:483px;white-space: nowrap;" data-ls="offsetxin:100;durationin:2000;delayin:1500;offsetxout:100;durationout:1000;parallaxlevel:3;" src="../wp-content/uploads/2013/12/slide-b-3.png" alt=""><img class="ls-l" style="top:456px;left:586px;white-space: nowrap;" data-ls="offsetxin:150;durationin:2000;delayin:1500;offsetxout:150;durationout:1000;parallaxlevel:5;" src="../wp-content/uploads/2013/12/slide-b-4.png" alt=""><img class="ls-l" style="top:421px;left:659px;white-space: nowrap;" data-ls="offsetxin:200;durationin:2000;delayin:1500;offsetxout:200;durationout:1000;parallaxlevel:7;" src="../wp-content/uploads/2013/12/slide-b-5.png" alt=""><p class="ls-l" style="top:47%;left:690px;font-weight: 500;font-family:Lato, 'Open Sans', sans-serif;font-size:35px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:left 50% 0;">Move your mouse<br> over this slide!</p><img class="ls-l" style="top:45%;left:585px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:right 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:right 50% 0;" src="../wp-content/uploads/2013/12/mouse.png" alt=""><p class="ls-l" style="top:560px;left:50px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#849e00;background:#ffffff;border-radius:4px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;rotateyin:-1;scalexin:0.5;scaleyin:0.5;transformoriginin:left bottom 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:right bottom 0;">FANCY PARALLAX EFFECT</p><p class="ls-l" style="top:600px;left:50px;font-weight: 500;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;scalexin:2;scaleyin:2;transformoriginin:right top 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:left top 0;">by mouse move</p></div><div class="ls-slide" data-ls="slidedelay:5500;transition2d:11;"><img src="../wp-content/uploads/2013/12/bg51.jpg" class="ls-bg" alt="bg5" /><img class="ls-l" style="top:0px;left:0px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;scalexin:1.1;scaleyin:1.1;offsetxout:0;" src="../wp-content/uploads/2013/12/bg31.jpg" alt=""><p class="ls-l" style="top:50%;left:50%;font-weight: 300; background: white; background: rgba(255,255,255,.2);height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffe9db;white-space: nowrap;" data-ls="offsetxin:0;rotatexin:-70;scalexin:3;scaleyin:3;offsetxout:0;durationout:1000;showuntil:500;rotatexout:70;scalexout:0.5;scaleyout:0.5;">embedding videos?</p><div class="ls-l" style="top:100px;left:50%;background: white; background: rgba(255,255,255,.2); box-shadow: 0px 5px 70px -20px black;width:660px;height:380px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeInOutExpo;rotatexin:20;scalexin:0.8;scaleyin:0.8;transformoriginin:50% 50% -150;offsetxout:0;durationout:1000;rotatexout:-20;scalexout:0.8;scaleyout:0.8;transformoriginout:50% 50% -150;"></div><div class="ls-l" style="top:110px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1500;easingin:easeInOutExpo;rotatexin:20;scalexin:0.8;scaleyin:0.8;transformoriginin:50% 50% -150;offsetxout:0;durationout:1000;rotatexout:-20;scalexout:0.8;scaleyout:0.8;transformoriginout:50% 50% -150;"><iframe src="https://player.vimeo.com/video/15069551?title=0&amp;byline=0&amp;portrait=0&amp;color=f75402" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div><img class="ls-l" style="top:80%;left:35%;white-space: nowrap;" data-ls="offsetxin:-100;delayin:2500;easingin:easeInOutCubic;rotatein:-180;offsetxout:300;durationout:1000;easingout:easeInOutCubic;rotateout:360;" src="../wp-content/uploads/2013/12/youtube-color.png" alt=""><img class="ls-l" style="top:80%;left:50%;white-space: nowrap;" data-ls="offsetxin:-200;delayin:2550;easingin:easeInOutCubic;rotatein:-270;offsetxout:200;durationout:1000;easingout:easeInOutCubic;rotateout:270;" src="../wp-content/uploads/2013/12/vimeo-color.png" alt=""><img class="ls-l" style="top:80%;left:65%;white-space: nowrap;" data-ls="offsetxin:-300;delayin:2600;easingin:easeInOutCubic;rotatein:-360;offsetxout:100;durationout:1000;easingout:easeInOutCubic;rotateout:180;" src="../wp-content/uploads/2013/12/html5-color.png" alt=""><p class="ls-l" style="top:630px;left:35%;opacity: .75;font-family:Lato, 'Open Sans', sans-serif;font-size:15px;color:#ffdcc7;white-space: nowrap;" data-ls="offsetxin:0;durationin:500;delayin:3300;easingin:easeOutBack;scalexin:0;scaleyin:0;offsetxout:0;durationout:500;scalexout:4;scaleyout:4;">video</p><p class="ls-l" style="top:630px;left:50%;opacity: .75;font-family:Lato, 'Open Sans', sans-serif;font-size:15px;color:#ffdcc7;white-space: nowrap;" data-ls="offsetxin:0;durationin:500;delayin:3350;easingin:easeOutBack;scalexin:0;scaleyin:0;offsetxout:0;durationout:500;scalexout:4;scaleyout:4;">video</p><p class="ls-l" style="top:630px;left:65%;opacity: .75;font-family:Lato, 'Open Sans', sans-serif;font-size:15px;color:#ffdcc7;white-space: nowrap;" data-ls="offsetxin:0;durationin:500;delayin:3400;easingin:easeOutBack;scalexin:0;scaleyin:0;offsetxout:0;durationout:500;scalexout:4;scaleyout:4;">video + audio</p><p class="ls-l" style="top:30px;left:30px;font-weight: 300; background: black; background: rgba(0,0,0,.2);height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffe9db;white-space: nowrap;" data-ls="offsetxin:150;delayin:3000;skewxin:-60;offsetxout:-150;skewxout:60;">RICH MEDIA SUPPORT </p><p class="ls-l" style="top:30px;left:835px;font-weight: 300; background: black; background: rgba(0,0,0,.2);height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffe9db;white-space: nowrap;" data-ls="offsetxin:-150;delayin:3000;skewxin:60;offsetxout:150;skewxout:-60;">WITH OPTIONAL AUTOPLAY</p></div><div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;"><img src="../wp-content/uploads/2013/12/bg6b.jpg" class="ls-bg" alt="Slide background" /><img class="ls-l" style="top:155px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:3000;easingin:linear;scalexin:0;scaleyin:0;offsetxout:0;durationout:1500;showuntil:1;easingout:linear;scalexout:2;scaleyout:2;" src="../wp-content/uploads/2013/12/circle.png" alt=""><img class="ls-l" style="top:155px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:4000;easingin:linear;scalexin:0;scaleyin:0;offsetxout:0;durationout:1500;showuntil:1;easingout:linear;scalexout:2;scaleyout:2;" src="../wp-content/uploads/2013/12/circle.png" alt=""><p class="ls-l" style="top:334px;left:56px;font-weight: 300; opacity: .4;font-family:Lato, 'Open Sans', sans-serif;font-size:200px;color:#f06a52;white-space: nowrap;" data-ls="offsetxin:0;durationin:2500;delayin:1000;scalexin:0;scaleyin:0;offsetxout:0;scalexout:0;scaleyout:0;">&amp;</p><p class="ls-l" style="top:420px;left:20px;font-weight: 300; background: white; background: rgba(255,255,255,.85);height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#bd5949;white-space: nowrap;" data-ls="offsetxin:-50;durationin:2000;delayin:1000;offsetxout:-50;durationout:1000;">ALL THESE FEATURES</p><p class="ls-l" style="top:460px;left:173px;font-weight: 500;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#bd5949;white-space: nowrap;" data-ls="offsetxin:50;delayin:2000;skewxin:-60;offsetxout:-50;durationout:1000;skewxout:-60;">much more!</p><p class="ls-l" style="top:420px;left:1113px;font-weight: 500; text-align: right;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;color:#bd5949;white-space: nowrap;" data-ls="offsetxin:0;delayin:2500;rotatein:90;transformoriginin:right bottom 0;offsetxout:0;durationout:1500;transformoriginout:right bottom 0;">...to create</p><p class="ls-l" style="top:460px;left:990px;font-weight: 300; text-align: right;width:260px;height:40px;padding-right:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#f06a52;white-space: nowrap;" data-ls="offsetxin:0;durationin:2500;delayin:3250;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:0;durationout:1000;rotatexout:90;transformoriginout:50% bottom 0;">THE BEST SLIDER</p><p class="ls-l" style="top:505px;left:983px;font-family:'Indie Flower';font-size:30px;color:#d9482b;white-space: nowrap;" data-ls="offsetxin:-50;delayin:3500;skewxin:60;scalexin:1.5;offsetxout:-50;durationout:1000;skewxout:60;scalexout:1.5;">with no compromises!</p><img class="ls-l" style="top:180px;left:50%;white-space: nowrap;" data-ls="durationin:1500;scalexin:0.8;scaleyin:0.8;scalexout:0.8;scaleyout:0.8;" src="../wp-content/uploads/2013/12/ls5box.png" alt=""><p class="ls-l" style="top:28px;left:50%;font-family:'Indie Flower';font-size:24px;color:#9c8b9c;white-space: nowrap;" data-ls="offsetxin:0;delayin:4000;scalexin:0.8;scaleyin:0.8;offsetxout:0;scalexout:0;scaleyout:0;">Please check the other demo sliders</p><img class="ls-l" style="top:9px;left:837px;white-space: nowrap;" data-ls="offsetxin:0;delayin:4200;scalexin:0.5;scaleyin:0.5;offsetxout:0;scalexout:0;scaleyout:0;" src="../wp-content/uploads/2013/12/arrow-up.png" alt=""></div></div></div>
+<div class="slider-container"></div>
+<div class="content"><article><section class="hideonmobile">
+	<div class="fl col1-3">
+		<h3>
+			200+ slide transitions
+		</h3>
+		<ul class="list-holder" id="transition-holder">
+			<li class="cur-list-item" id="cur-transition"><span class="c">Try all transitions!</span>
+				<div class="list wide-list" id="transition-list">
+					<div class="list-helper"></div>
+					<ul>
+					</ul>
+					<b></b>
+					<p class="scroll c">
+						you can scroll<br>
+						in this box
+					</p>
+				</div>
+			</li>
+		</ul>
+		<p>
+			You can try out many of the available transitions in real-time! Just select a transition from the list and see how the slider animates.
+		</p>
+	</div>
+	<div class="fl col1-3">
+		<h3>
+			13 skins
+		</h3>
+		<ul class="list-holder" id="skin-holder">
+			<li class="cur-list-item" id="cur-skin"><span class="c">Select the skin!</span>
+				<div class="list" id="skin-list">
+					<div class="list-helper"></div>
+					<ul>
+						<li class="list-title">Skin selector</li>
+						<li class="selectable-list-item" rel="v5">V5 Skin</li>
+						<li class="selectable-list-item" rel="borderlesslight">Borderless Light Skin</li>
+						<li class="selectable-list-item" rel="borderlessdark">Borderless Dark Skin</li>
+						<li class="selectable-list-item" rel="borderlesslight3d">Borderless Light 3D Skin</li>
+						<li class="selectable-list-item" rel="borderlessdark3d">Borderless Dark 3D Skin</li>
+						<li class="selectable-list-item" rel="lightskin">Light Skin</li>
+						<li class="selectable-list-item" rel="darkskin">Dark Skin</li>
+						<li class="selectable-list-item" rel="glass">Glass Skin</li>
+						<li class="selectable-list-item" rel="carousel">Carousel Skin</li>
+						<li class="selectable-list-item" rel="defaultskin">Default Skin</li>
+						<li class="selectable-list-item" rel="minimal">Minimal Skin</li>
+						<li class="selectable-list-item" rel="fullwidth">Full Width Skin</li>
+						<li class="selectable-list-item" rel="fullwidthdark">Full Width Dark Skin</li>
+					</ul>
+					<b></b>
+				</div>
+			</li>
+		</ul>
+		<p>
+			You can easily customize these skins or if you need, your can create your own skin as well! (Skins PSD file is included in the package.)
+		</p>
+	</div>
+	<div class="fl col1-3">
+		<h3>
+			3 navigation types
+		</h3>
+		<ul class="list-holder" id="nav-holder">
+			<li class="cur-list-item" id="cur-nav"><span class="c">Change the navigation!</span>
+				<div class="list" id="nav-list">
+					<div class="list-helper"></div>
+					<ul>
+						<li class="list-title">Navigation selector</li>
+						<li class="selectable-list-item" rel="bullets">Bullets</li>
+						<li class="selectable-list-item" rel="hover">Show thumbnails if hover on bullets</li>
+						<li class="selectable-list-item" rel="always">Always show thumbnails</li>
+					</ul>
+					<b></b>
+				</div>
+			</li>
+		</ul>
+		<p>
+			You can select from three navigation types! These can be used with any skins and you can set the size of the thumbnails as well.
+		</p>
+	</div>
+	<div class="clear"></div>
+</section>
+
+
+<div class="sep"></div>
+
+<section>
+	<h3>LayerSlider responsive demo slider</h3>
+	<p>
+		This is a well configured demo slider with a lot of image and text layers and also an embedded video.
+		In this slider we are using many new transitions like skew or rotate layers in 3D.
+		Move your mouse over the bullets and the thumbnails will shown.
+		Try to select another skin or navigation type or explore the awesome transitions!
+		Please move the mouse over the third slide and you will see a fancy real-time parallax effect!
+	</p>
+</section>
+
+<div class="sep"></div>
+<section>
+	<a class="get" href="http://codecanyon.net/item/layerslider-responsive-jquery-slider-plugin/922100">Get this plugin now!</a>
+</section>
+
+<div class="sep"></div>
+
+<section>
+	<h3 class="highlighted">Check out all demos &amp; examples</h3>
+	<nav>
+		<a href="../layerslider-responsive-jquery-slider-plugin/index.html">Responsive demo slider</a>
+		<a href="../layerslider-jquery-full-width-slider/index.html">Full width demo slider</a>
+		<a href="../layerslider-jquery-content-slider/index.html">Content slider</a>
+		<a href="../layerslider-jquery-carousel/index.html">Carousel example</a>
+		<a href="../layerslider-jquery-2d-demo-slider/index.html">Old 2D demo slider</a>
+		<a href="../layerslider-jquery-3d-demo-slider/index.html">Old 3D demo slider</a>
+		<a href="../layerslider-jquery-api-demo/index.html">API demo</a>
+		<a href="../layerslider-responsive-jquery-slider-plugin/index.html#features">LayerSlider features</a>
+		<span class="full"></span>
+	</nav>
+</section>
+
+
+<div class="sep"></div>
+
+<section>
+	<div class="fl col1-2">
+		<h3>Why choose LayerSlider</h3>
+		<p>
+			<strong>LayerSlider is a premium multi-purpose slider</strong> for creating image galleries, content sliders, and mind-blowing slideshows <strong>with must-see effects</strong>. It uses <strong>cutting edge technologies</strong> to provide the smoothest experience that’s possible, and it comes <strong>with more than 200 preset 2D and 3D slide transitions</strong>. It’s device friendly by <strong>supporting responsive mode, multiple layouts, touch gestures</strong> on mobile devices, and uses techniques like <strong>lazy load</strong> for optimal performance. You can add any content, including images, text, custom HTML, <strong>YouTube and Vimeo videos or HTML5</strong> self-hosted multimedia contents. It’s also <strong>SEO friendly</strong> by allowing you to build semantic markup with custom attributes that search engines can index easily. LayerSlider comes <strong>with 13 built-in skins</strong>, and it has <strong>tons of options to entirely customize</strong> the appearance and behavior of your sliders at the smallest detail.
+		</p>
+	</div>
+	<!--
+	<div class="fl col1-3">
+		<h3>Awesome examples</h3>
+		<p>
+			<a href="http://www.123tequila.com/home/" target="_blank">123tequila.com</a><br>
+			<a href="http://fovae.com/" target="_blank">fovae.com</a><br>
+			<a href="http://www.xxlpix.net/" target="_blank">xxlpix.net</a><br>
+			<a href="http://jellidesign.com.au/" target="_blank">jellidesign.com.au</a><br>
+			<a href="http://www.velvetinkmedia.com/" target="_blank">velvetinkmedia.com</a><br>
+			<a href="" target="_blank"></a><br>
+			<a href="" target="_blank"></a><br>
+			<a href="" target="_blank"></a><br>
+			<a href="" target="_blank"></a>
+		</p>
+	</div>
+	-->
+	<div class="fl col1-2">
+		<h3>Testimonials</h3>
+		<p class="i">
+			"Dudes, your newest update to Layerslider is freakin awesome!"
+		</p>
+		<p class="i">
+			"You guys rock, and this last update is completely kick-ass!"
+		</p>
+		<p class="i">
+			"It is by far the most sophisticated and cool thing I've seen in wordpress."
+		</p>
+		<p class="i">
+			"The best plugin I ever purchased! Rated to 5 stars!"
+		</p>
+		<p class="i">
+			"Incredible transitions and features!"
+		</p>
+		<p class="i">
+			"Guys, you are fantastic! You created the most user friendly slider I ever used!"
+		</p>
+	</div>
+	<div class="clear"></div>
+</section>
+
+
+<a name="features"></a>
+<div class="sep"></div>
+
+<section class="features">
+	<div class="fl col1-2">
+		<h3 class="features">Feature list of LayerSlider jQuery Plugin</h3>
+		<h4>General Features</h4>
+		<ul>
+			<li>Super smooth hardware accelerated CSS3 transitions with jQuery fallback</li>
+			<li>Fully responsive &amp; multiple layouts support</li>
+			<li>High compatibility with many fallback features for old browsers</li>
+			<li>Lazy loading images for better performance</li>
+			<li>Unlimited number of layers with image, video, audio, text or custom HTML content</li>
+			<li>Powerful API for more customization</li>
+			<li>SEO friendly</li>
+			<li>Multiple sliders can be added on the same page</li>
+			<li>Included free slide transition gallery</li>
+			<li>Very detailed documentation with examples</li>
+			<li>Unlimited variations of usage (image slider, image slider with text, content slider, video gallery slider, mixed content slider, banner rotator, carousel, etc.)</li>
+			<li>Free updates &amp; support</li>
+		</ul>
+		<h4>Slide Options</h4>
+		<ul>
+			<li>More than 200 2D &amp; 3D transitions</li>
+			<li>Option for create your own slide transitions</li>
+			<li>Option for linking the whole slide</li>
+			<li>Option for adding a deep link to a specified slide</li>
+		</ul>
+		<h4>Layer Options</h4>
+		<ul>
+			<li>Layers can slide (axis free), fade, rotate (in 2D or 3D), scale and skew, or a mixture of these</li>
+			<li>Option for setting the transform origin of transition</li>
+			<li>Option for linking layers</li>
+			<li>Option for adding a link to layers which will change the slider to a specific slide</li>
+			<li>Optional parallax effect on layers</li>
+		</ul>
+		<h4>Compatibility</h4>
+		<ul>
+			<li>Requires jQuery 1.8 or newer. Working with both 1.10.x or 2.x versions. Please note that jQuery 2.x is no longer compatible with IE7 and 8.</li>
+			<li>Requires the Greensock Animation Platform</li>
+			<li>Working in Chrome, Firefox, Safari, IE7-11, Opera</li>
+			<li>Working in mobile browsers</li>
+			<li>Most of the 2D slide transitons are working under all browsers.</li>
+			<li>The 3D slide transitions are working under Chrome, Firefox, Safari, Opera, iOS and the latest Android versions (2D fallback mode under other browsers).</li>
+		</ul>
+	</div>
+	<div class="fl col1-2 topmargin">
+		<h4>Slider Layout &amp; Appearance</h4>
+		<ul>
+			<li>Responsive, full-width, full size or fixed dimensions layout</li>
+			<li>Responsive under &amp; Layers container features for full-width sliders</li>
+			<li>13 skins included</li>
+			<li>Skins PSD file included for easily creating your own skins</li>
+			<li>Option for specifying a global background color or image to the slider</li>
+		</ul>
+		<h4>Slideshow</h4>
+		<ul>
+			<li>Auto-start slideshow (can be disabled)</li>
+			<li>Pause slideshow on hover feature</li>
+			<li>Starting with specified slide</li>
+			<li>Optional random slideshow feature</li>
+			<li>Option to fade in the first slide without animating the layers</li>
+			<li>Option for backwards-slideshow (Two way slideshow)</li>
+			<li>Looping feature</li>
+		</ul>
+		<h4>Navigation</h4>
+		<ul>
+			<li>Bullets, hover thumbnails or thumbnails</li>
+			<li>Touch navigation on mobile browsers</li>
+			<li>Keyboard navigation</li>
+			<li>Option for disabling prev / next buttons or bullets</li>
+			<li>Option for showing prev / next buttons or bullets on hover</li>
+			<li>Two types of timers: bar timer and circle timer</li>
+			<li>Option for customizing the thumbnail area and the size of thumbnails</li>
+		</ul>
+		<h4>Video &amp; Audio</h4>
+		<ul>
+			<li>Easy to use with YouTube, Vimeo or HTML5 videos or audios</li>
+			<li>Auto-pause slideshow while videos or audios are playing</li>
+			<li>Auto-play videos and audios (optional)</li>
+			<li>YouTube and Vimeo thumbnail images</li>
+		</ul>
+		<h4>YourLogo</h4>
+		<ul>
+			<li>Option for adding a fixed image over the slider</li>
+			<li>Option for styling and adding a link to this image</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</section>
+
+<div class="sep"></div>
+<section>
+	<a class="get" href="http://codecanyon.net/item/layerslider-responsive-jquery-slider-plugin/922100">Get this plugin now!</a>
+</section>
+</article></div>
+</div>
+</div>		<!-- Footer -->
+
+		<footer>
+
+			<div class="bg"></div>
+
+			<div class="sizer">
+
+				<div class="content">
+
+					<section>
+
+						<div class="fl col1-3">
+							<h3>About Kreatura Media</h3>
+							<p>
+								We are a group of creative web designers and web developers. We make unique web pages and brilliant web apps. We are expert in CSS3, HTML5, jQuery &amp; WordPress. We love clear, modern &amp; fancy web design.
+							</p>
+						</div>
+						<div class="fl col1-3">
+							<h3>Copyright</h3>
+							<p>
+								All content on this web site, such as text, graphics, logos, button icons and images, jQuery and WordPress plugins are the property of Kreatura Media Ltd. or its content suppliers and protected by international copyright laws.
+							</p>
+						</div>
+						<div class="fl col1-3">
+							<h3>You can reach us</h3>
+							<p>
+								You can send your support requests from our: <a href="http://codecanyon.net/user/kreatura">Envato Profile Page</a> (see the bottom right box)
+<!-- 								<br>
+								In any other cases you can send us an email from <a href="https://kreaturamedia.com" target="_blank">kreaturamedia.com</a><br>
+ -->							</p>
+						</div>
+						<div class="clear"></div>
+
+					</section>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!-- Google Analytics -->
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3549989-2']);
+			_gaq.push(['_trackPageview']);
+			(function(){
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+		<script type='text/javascript' src='../wp-content/themes/kreatura/js/script.js%3Fver=1.0'></script>
+<script type='text/javascript' src='../wp-content/plugins/WeatherSlider/js/jquery-easing-1.3.js%3Fver=1.3.0'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js%3Fver=4.6.6'></script>
+<script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/greensock.js%3Fver=1.11.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"5.6.6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js%3Fver=5.6.6'></script>
+<script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js%3Fver=5.6.6'></script>
+<script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;var curSkin = 'v5';</script><script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_29','jquery'); } else { lsjQuery("#layerslider_29").layerSlider({startInViewport: false, pauseOnHover: false, forceLoopNum: false, autoPlayVideos: false, skinsPath: 'https://kreaturamedia.com/wp-content/plugins/LayerSlider/static/skins/', skin: 'v5', thumbnailNavigation: 'hover'}) } }); </script>
+	</body>
+</html>

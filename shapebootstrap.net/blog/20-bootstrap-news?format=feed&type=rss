@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="MYOB" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+		<description><![CDATA[]]></description>
+		<link>https://shapebootstrap.net/blog/20-bootstrap-news</link>
+		<lastBuildDate>Tue, 24 May 2016 21:59:30 +0600</lastBuildDate>
+		<generator>MYOB</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://shapebootstrap.net/blog/20-bootstrap-news?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<managingEditor>support@shapebootstrap.net (ShapeBootstrap)</managingEditor>
+		<item>
+			<title>Important things you need to know about Bootstrap 4</title>
+			<link>https://shapebootstrap.net/blog/20-bootstrap-news/55-important-things-you-need-to-know-about-bootstrap-4</link>
+			<guid isPermaLink="true">https://shapebootstrap.net/blog/20-bootstrap-news/55-important-things-you-need-to-know-about-bootstrap-4</guid>
+			<description><![CDATA[<p>The Bootstrap team released the <a href="https://shapebootstrap.net/blog/13-top-5-features-coming-in-bootstrap-4" target="_blank">first alpha version</a> of the popular front-end framework back in August 2015. In December of the same year, <a href="http://blog.getbootstrap.com/2015/12/08/bootstrap-4-alpha-2/" target="_blank">Bootstrap 4 alpha 2</a> arrived. More experiments are definitely on the way. While we expect the final package release as soon as possible, here are some important information you should know about Bootstrap 4.</p>
+]]></description>
+			<author>mdarafat2008@gmail.com (Arafat Bin Sultan)</author>
+			<category>Bootstrap News</category>
+			<pubDate>Tue, 01 Mar 2016 22:16:28 +0600</pubDate>
+		</item>
+	</channel>
+</rss>

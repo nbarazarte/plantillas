@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="https://shapebootstrap.net/item/1525168-velonic-admin-dashboard-frontend/comments"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="app template, admin, control panel, dashboard, bootstrap, admin, Admin Template, bootstrap theme, clean, css3, app"/>
+<meta name="description" content="Velonic is a fully featured premium admin template built on top of awesome Bootstrap 3.3.6, modern web technology HTML5, CSS3 and jQuery.It has many..."/>
+<meta name="generator" content="MYOB"/>
+<title>Velonic - Admin Dashboard &amp; Frontend | ShapeBootstrap</title>
+<link href="/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link rel="stylesheet" href="/components/com_product/assets/css/magnific-popup.css" type="text/css"/>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=latin" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/font-awesome.min.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/shapebootstrap.icon.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/default/css/presets/preset1.css" type="text/css" class="preset"/>
+<style type="text/css">body{font-family:Open Sans,sans-serif;font-weight:normal;}h1{font-family:Open Sans,sans-serif;font-weight:700;}h2{font-family:Open Sans,sans-serif;font-weight:600;}h3{font-family:Open Sans,sans-serif;font-weight:normal;}h4{font-family:Open Sans,sans-serif;font-weight:700;}h5{font-family:Open Sans,sans-serif;font-weight:600;}h6{font-family:Open Sans,sans-serif;font-weight:600;}#sp-bottom{background-color:#3c3c3c;padding:70px 0px 0px;}#sp-footer{background-color:#3c3c3c;}</style>
+<script src="/media/system/js/core.js" type="text/javascript"></script>
+<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="/components/com_product/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="/components/com_product/assets/js/cart.js" type="text/javascript"></script>
+<script src="/components/com_product/assets/js/comments.js" type="text/javascript"></script>
+<script src="/templates/default/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/templates/default/js/jquery.sticky.js" type="text/javascript"></script>
+<script src="/templates/default/js/matchheight.js" type="text/javascript"></script>
+<script src="/templates/default/js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+<meta content="Velonic - Admin Dashboard & Frontend" property="og:title"/>
+<meta content="Velonic is a fully featured premium admin template built on top of awesome Bootstrap 3.3.6, modern web technology HTML5, CSS3 and jQuery.It has many..." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="https://shapebootstrap.net/item/1525168-velonic-admin-dashboard-frontend/comments" rel="canonical"/>
+<meta content="https://shapebootstrap.net/item/1525168-velonic-admin-dashboard-frontend/comments" property="og:url"/>
+<meta content="https://shapebootstrap.net/media/com_product/products/thumb/1525168/thumbnail.png" property="og:image"/>
+<meta name="google-site-verification" content="vRFNCRSLlIhragUEpvDvFs0gK3kHISFZqPF6VNe-a8k"/>
+</head>
+<body class="site com-product view-product layout-comments no-task itemid-107 en-gb ltr  sticky-header layout-fluid">
+<div class="body-innerwrapper">
+<header id="sp-header"><div class="container"><div class="row"><div id="sp-logo" class="col-xs-8 col-sm-3 col-md-2"><div class="sp-column "><a class="logo" href="/"><h1><img class="sp-default-logo" src="/templates/default/images/presets/preset1/logo.png" alt="ShapeBootstrap"><img class="sp-retina-logo" src="/templates/default/images/presets/preset1/logo@2x.png" alt="ShapeBootstrap" width="177" height="15"></h1></a></div></div><div id="sp-search" class="col-sm-4 col-md-6 hidden-xs"><div class="sp-column "><form id="product-search" action="https://shapebootstrap.net/" method="get"><input type="hidden" name="option" value="com_product"><input type="hidden" name="view" value="products"><input type="hidden" name="Itemid" value="105"><i class="sb-icon-search"></i><input type="text" name="search" placeholder="Search Templates" value=""></form></div></div><div id="sp-account" class="col-xs-4 col-sm-5 col-md-4"><div class="sp-column "><ul><li><a class="btn btn-primary btn-submit-item hidden-sm hidden-xs" href="/login">Start Selling</a></li><li><a class="btn btn-success btn-login hidden-sm hidden-xs" href="/login">Login</a></li><li><a class="btn btn-link btn-login visible-sm visible-xs" href="/login"><i class="fa fa-user"></i></a></li><li><a class="btn btn-default btn-registration hidden-sm hidden-xs" href="/login?view=registration">Create an Account</a></li><li><a class="btn btn-link btn-login visible-sm visible-xs" id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a></li><li><a class="btn btn-link btn-cart hidden-sm hidden-xs" href="/cart"><i class="sb-icon-purchase"></i> <small class="my-cart">0</small></a></li></ul></div></div></div></div></header><section id="sp-navbar" class=" hidden-xs"><div class="container"><div class="row"><div id="sp-categories" class="col-sm-4 col-md-2"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><ul class="product-categories">
+<li>
+<a href="#">Item Categories</a>
+<ul>
+<li><a href="/items/category/html-templates/16-corporate-business">Corporate & Business</a></li>
+<li><a href="/items/category/html-templates/11-admin-templates">Admin Templates</a></li>
+<li><a href="/items/category/html-templates/10-landing-pages">Landing Pages</a></li>
+<li><a href="/items/category/html-templates/9-coming-soon">Coming Soon</a></li>
+<li><a href="/items/category/html-templates/24-creative">Creative</a></li>
+<li><a href="/items/category/html-templates/29-blog-magazine-news">Blog / Magazine / News</a></li>
+<li><a href="/items/category/html-templates/25-wedding">Wedding</a></li>
+<li><a href="/items/category/html-templates/33-ecommerce">eCommerce</a></li>
+<li><a href="/items/category/html-templates/26-miscellaneous">Miscellaneous</a></li>
+<li><a href="/items/category/html-templates/27-entertainment">Entertainment</a></li>
+</ul>
+</li>
+</ul>
+</div></div></div></div><div id="sp-menu" class="col-sm-8 col-md-7"><div class="sp-column "> <div class='sp-megamenu-wrapper'>
+<ul class="sp-megamenu-parent menu-fade hidden-xs"><li class="sp-menu-item"><a href="/">Home</a></li><li class="sp-menu-item"><a href="/items">All Items</a></li><li class="sp-menu-item"><a href="/popular-items">Popular Items</a></li><li class="sp-menu-item hidden"><a href="/free-templates">Free Templates</a></li><li class="sp-menu-item"><a href="/blog">Blog</a></li><li class="sp-menu-item sp-has-child"><a href="#"><i class="fa fa-support"></i> Help</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="/forum">Community Forum</a></li><li class="sp-menu-item"><a href="/help/contact">Contact Us</a></li><li class="sp-menu-item"><a href="/licenses">Licenses</a></li></ul></div></div></li><li class="sp-menu-item"><a href="/affiliates">Affiliates</a></li></ul> </div>
+</div></div><div id="sp-social" class="col-sm-3 col-md-3 hidden-sm hidden-xs"><div class="sp-column "><ul class="social-icons"><li><a target="_blank" href="https://www.facebook.com/shapebootstrap"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/shapebootstrap"><i class="fa fa-twitter"></i></a></li><li><a target="_blank" href="https://www.pinterest.com/shapebootstrap/"><i class="fa fa-pinterest"></i></a></li></ul></div></div></div></div></section><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-page-title"><div class="container">
+<ol class="breadcrumb">
+<li><a href="/" class="pathway">Home</a></li><li class="active">Item Details</li></ol>
+</div></div></div></div></div></section><section id="sp-main-body"><div class="container"><div class="row"><div id="sp-component" class="col-sm-12 col-md-12"><div class="sp-column "><div id="system-message-container">
+</div>
+<div id="akeeba-renderjoomla">
+<div class="product-details">
+<h2>Velonic - Admin Dashboard & Frontend</h2>
+<div class="row">
+<div class="col-sm-8">
+<div role="tabpanel">
+<ul class="nav nav-tabs" role="tablist">
+<li><a href="/item/1525168-velonic-admin-dashboard-frontend">Details</a></li>
+<li class="active"><a href="/item/1525168-velonic-admin-dashboard-frontend/comments">Comments <span>25</span></a></li>
+<li><a href="/item/1525168-velonic-admin-dashboard-frontend/changelog">Changelog</a></li>
+<li><a href="/item/1525168-velonic-admin-dashboard-frontend/ratings"><i class="fa fa-star"></i> Ratings</a></li>
+</ul>
+<div id="comments" class="comments">
+<div id="1525168-191" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/themeum">
+<img class="avatar" src="/media/com_product/users/2112/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/themeum">
+<strong class="commented-by">themeum</strong>
+</a>
+<span class="commented-on">8 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Absolutely stunning item. Best of luck with sales. Welcome to ShapeBootstrap :) </div>
+<div class="comment-replies">
+<div id="reply-193" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Thanks :)</div>
+<div class="reply-meta">
+<span>8 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-256" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/Insanity3">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/Insanity3">
+<strong class="commented-by">Insanity3</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">7 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+I just purchased this but never got my download..... </div>
+<div class="comment-replies">
+<div id="reply-257" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Just replied you through email.</div>
+<div class="reply-meta">
+<span>7 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-258" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/herby9ml">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/herby9ml">
+<strong class="commented-by">herby9ml</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">7 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Beautiful template! Love the organization, and layout of the presentation. It's awesome that you included so many great plugins with the build. But the documentation is poor. I cant tell which plugin does what. What to manipulate to change each feature, and where i can insert my own context to customize it to fit me needs and purposes. I understand that you shared your sources, but it doesn't help me to understand what you did, and where you did it. I've viewed the same sources you worked with, and my codes look WAY different from yours. I have no idea what to even 'Ctrl+F' for, just to tweak the validation on the wizard form. Your use of .min {minimized} version, makes it even harder to understand if i should be manipulating the packed edit, or hunt down thru any of the other tons of plugins (all given on the same page) to get the right settings.<br/>
+<br/>
+I'm sorry, i love the work you did, but i'm just frustrated i can't use it towards my benefit. It's no good to me to have a form validate data, when any data can be passed thru the validation. </div>
+<div class="comment-replies">
+<div id="reply-259" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi,<br/>
+Sorry for trouble with it. I have used .min version file for third party plugins only. Normally you will not need to customize them, but in case if you want to, then please check the corresponding plugin folder or there is online documentation available for each of them.<br/>
+<br/>
+About form validation, you should check jquery.validate/form-validation-init.js file. It's not minimized version. Also note that I just used the third party plugin, but in case if you need help with it, please let me know.<br/>
+<br/>
+I am working on next release and detailed documentation currently, and will be releasing soon. I'll keep this in mind as a feedback while writing documentation.<br/>
+Thanks.</div>
+<div class="reply-meta">
+<span>7 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-260" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/herby9ml">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/herby9ml">
+herby9ml </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">Hey! Thank you, for your speedy reply. I took a look into the information you gave me, and manipulated the files about 3 or 4 different ways. The &quot;jquery.validate/form-validation-init.js&quot; does nothing for me, and i've replaced all your example information with mine, and even went as far as looking into the min version to compare values. The 'bootstrapValidation.js' gave me the most success, but the results were a little weird, cause the document was being 'validated twice', and had the error-message (validation unsuccessful alert) displayed twice, in two different classes (one for bootstrap, and the other for the wizard-validation). I'm not sure what direction to go in. But it seems like a lot of work to tinker with files with my limited understanding of everything.<br/>
+<br/>
+Great idea with adding a more detailed documentation for your next release. If you need anymore feedback, i'd be happy to contribute. Also, make a note to comment-out lines: 145 and 165, on your &quot;assets/form-wizard/jquery.steps.css.&quot; Those two lines limit fluidity and flexibility of the form-wizard, prevent the div form expanding, and cutting off excess content. (Sometimes, and error appears, and lines are missing/not-visible). You can view it on your demo page, if you want to understand what i'm referring to.<br/>
+<br/>
+Anyways, thanks for the template, and assistance. Would've been great if i had better experience with javascript, and the various plugins.</div>
+<div class="reply-meta">
+<span>7 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-261" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Thanks for suggesting solution in jquery.steps.css. I'll add this fix in next release. Sorry again for trouble.</div>
+<div class="reply-meta">
+<span>7 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-262" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/herby9ml">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/herby9ml">
+herby9ml </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">My apologies, for spamming underneath your post. This is mainly a &quot;just in case&quot; for the next person that comes along. It took a bit of reading and studying, but i figured out what i was looking for, on how to manipulate the validation form to work like how i wanted. The validation js is not in the &quot;jquery.validate/form-validation-init.js&quot; but in the &quot;assets/form-wizard/wizard-init.js&quot; under the 'jQuery-steps' plugin. It kinda leads into the 'jQuery.validation' plugin (they share similar instructions). But that was pretty much it. The instructions weren't but locating the right location was the biggest trouble i had. I actually had the script written out fine, but modifications never made a difference, cause all of the other js didn't help (neither did inline &lt;script&gt; tags). I copied and pasted everything under matching form-id tags, and everything worked as expected, with a bit of minor modifications required. As mentioned before, great template. Love the work you did. :)</div>
+<div class="reply-meta">
+<span>7 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-472" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/jrgvf">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/jrgvf">
+<strong class="commented-by">jrgvf</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">5 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Hi, i buy this template for use in Ruby on Rails application, but not work. You have any idea of use this template on Ruby on Rails Application? </div>
+<div class="comment-replies">
+<div id="reply-473" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Sorry I am not expert in RoR. But this link can help you. http://drnicwilliams.com/2009/10/06/install-any-html-themetemplate-into-your-rails-app/ . <br/>
+<br/>
+Thanks</div>
+<div class="reply-meta">
+<span>5 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-556" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/rodrigofrg">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/rodrigofrg">
+<strong class="commented-by">rodrigofrg</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">4 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Hello, if possible would like an example of using Responsive Modal for sending data via JQuery in fact that I can do, I'm not able to do the validations of the fields and close the form after successfully sending.<br/>
+<br/>
+Thanks </div>
+<div class="comment-replies">
+<div id="reply-560" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi,<br/>
+<br/>
+Would it be possible for me too see this issue on some public url?<br/>
+<br/>
+Thanks.</div>
+<div class="reply-meta">
+<span>4 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-563" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/rodrigofrg">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/rodrigofrg">
+rodrigofrg </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">Hello, I think I got it, have not used your file &quot;assets\jquery.validate\form-validation-Init.js&quot;, I made straight on the test page (frmTeste.html) this way:<br/>
+<br/>
+Trinket of Modal Form:<br/>
+&lt;!-- NOVA CATEGORIA --&gt; <br/>
+&lt;div id=&quot;con-close-modal&quot; class=&quot;modal fade&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot; style=&quot;display: none;&quot;&gt;<br/>
+&lt;div class=&quot;modal-dialog&quot;&gt; <br/>
+&lt;div class=&quot;modal-content&quot;&gt; <br/>
+&lt;div class=&quot;modal-header&quot;&gt; <br/>
+&lt;button type=&quot;button&quot; id=&quot;btClose&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;&times;&lt;/button&gt; <br/>
+&lt;h4 class=&quot;modal-title&quot;&gt;Adicionar nova categoria&lt;/h4&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;form id=&quot;frmCategoria&quot; &gt;<br/>
+&lt;div class=&quot;modal-body&quot;&gt; <br/>
+&lt;div class=&quot;row&quot;&gt; <br/>
+&lt;div class=&quot;col-md-6&quot;&gt; <br/>
+&lt;div class=&quot;form-group&quot;&gt; <br/>
+&lt;label for=&quot;tbsNome&quot; class=&quot;control-label&quot;&gt;Nome&lt;/label&gt; <br/>
+&lt;input type=&quot;text&quot; class=&quot; form-control&quot; id=&quot;tbsNome&quot; name=&quot;tbsNome&quot; required=&quot;&quot; aria-required=&quot;true&quot;&gt;<br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;div class=&quot;col-md-6&quot;&gt; <br/>
+&lt;div class=&quot;form-group&quot;&gt; <br/>
+&lt;label for=&quot;tbsCor&quot; class=&quot;control-label&quot;&gt;Cor&lt;/label&gt; <br/>
+&lt;div&gt;<br/>
+&lt;div data-color-format=&quot;rgb&quot; data-color=&quot;rgb(255, 146, 180)&quot; class=&quot;input-append colorpicker-default color input-group&quot;&gt;<br/>
+&lt;input id=&quot;tbsCor&quot; name=&quot;tbsCor&quot; type=&quot;text&quot; value=&quot;&quot; class=&quot; form-control&quot; required=&quot;&quot; aria-required=&quot;true&quot;&gt;<br/>
+&lt;span class=&quot; input-group-btn add-on&quot;&gt;<br/>
+&lt;button class=&quot;btn btn-white&quot; type=&quot;button&quot; style=&quot;padding: 8px&quot;&gt;<br/>
+&lt;i style=&quot;background-color: rgb(124, 66, 84);&quot;&gt;&lt;/i&gt;<br/>
+&lt;/button&gt;<br/>
+&lt;/span&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;div class=&quot;row&quot;&gt; <br/>
+&lt;div class=&quot;col-md-12&quot;&gt; <br/>
+&lt;div class=&quot;form-group no-margin&quot;&gt; <br/>
+&lt;label for=&quot;taDescricao&quot; class=&quot;control-label&quot;&gt;Descri&ccedil;&atilde;o&lt;/label&gt; <br/>
+&lt;textarea class=&quot;form-control autogrow&quot; id=&quot;taDescricao&quot; name=&quot;taDescricao&quot; style=&quot;overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;&quot;&gt;&lt;/textarea&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;div class=&quot;modal-footer&quot;&gt; <br/>
+&lt;button class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot; type=&quot;button&quot;&gt;Cancelar&lt;/button&gt; <br/>
+&lt;button id=&quot;btConfirmar&quot; class=&quot;btn btn-success&quot; type=&quot;submit&quot;&gt;Confirmar&lt;/button&gt; <br/>
+&lt;/div&gt; <br/>
+&lt;/form&gt;<br/>
+&lt;/div&gt; <br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt; <br/>
+&lt;!-- /NOVA CATEGORIA --&gt;<br/>
+<br/>
+JS excerpt validation and submission of data:<br/>
+&lt;script type=&quot;text/javascript&quot;&gt;<br/>
+$(document).ready(function() <br/>
+{ <br/>
+$('#page-content').load('../source/src_categoria_read.php', function()<br/>
+{ <br/>
+//$('#page-content').fadeIn('slow');<br/>
+});<br/>
+<br/>
+//$('#datatable').dataTable();<br/>
+<br/>
+$('.colorpicker-default').colorpicker(<br/>
+{<br/>
+format: 'hex'<br/>
+});<br/>
+<br/>
+$('#frmCategoria').validate({<br/>
+rules: {<br/>
+tbsNome: { required: true, minlength: 2 },<br/>
+tbsCor: { required: true, minlength: 7 }<br/>
+},<br/>
+messages: {<br/>
+tbsNome: { required: 'Preencha o campo nome', minlength: 'No m&iacute;nimo 2 letras' },<br/>
+tbsCor: { required: 'Escolha uma cor', minlength: 'No m&iacute;nimo 7 letras' }<br/>
+},<br/>
+submitHandler: function( form ){<br/>
+<br/>
+var dataString = $(&quot;#frmCategoria&quot;).serialize(); <br/>
+<br/>
+$.ajax(<br/>
+{<br/>
+type: &quot;POST&quot;,<br/>
+url: &quot;../source/src_categoria_post.php&quot;,<br/>
+data: dataString,<br/>
+dataType: &quot;json&quot;,<br/>
+success: function(data)<br/>
+{<br/>
+if (!data.success) { //If fails <br/>
+if (data.errors.name) { //Returned if any error from process.php<br/>
+//$('.throw_error').fadeIn(1000).html(data.errors.name); //Throw relevant error<br/>
+alert(&quot;ERRO: &quot; + data.errors.name);<br/>
+}<br/>
+}<br/>
+else {<br/>
+//$('#success').fadeIn(1000).append('&lt;p&gt;' + data.posted + '&lt;/p&gt;'); //If successful, than throw a success message<br/>
+alert(&quot;OK: &quot; + data.posted);<br/>
+$( &quot;#btClose&quot; ).trigger( &quot;click&quot; );<br/>
+}<br/>
+<br/>
+},<br/>
+error: function()<br/>
+{<br/>
+alert('Erro!');<br/>
+}<br/>
+});<br/>
+<br/>
+return false;<br/>
+}<br/>
+}); <br/>
+});<br/>
+&lt;/script&gt;<br/>
+<br/>
+I am using &quot;$(&quot;#btClose&quot;) .trigger (&quot;click&quot;);&quot; to close the form after successfully sending, but do not know if it's the right way.<br/>
+<br/>
+Thanks,</div>
+<div class="reply-meta">
+<span>4 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-573" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi,<br/>
+<br/>
+Triggering click event close button will work without an issue. But it will be better to close modal using $('#con-close-moda').modal('hide').<br/>
+</div>
+<div class="reply-meta">
+<span>4 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-574" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/rodrigofrg">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/rodrigofrg">
+rodrigofrg </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">OK, I got it.<br/>
+<br/>
+On the validation may be the way I'm doing?<br/>
+<br/>
+Still on validating, I have two problems with the color component.<br/>
+First, when he is invalid and the message is displayed &quot;button&quot; that displays the color does not track the INPUT alignment (tbsCor) getting down.<br/>
+According to that when choosing a value in the color palette and click on the validation field does not happen (if ever there is an invalid field message she does not add), it will only happen (disappear) if I click on the field again, then another.<br/>
+<br/>
+If you can help me with this I am very grateful.<br/>
+<br/>
+Thanks.</div>
+<div class="reply-meta">
+<span>4 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-765" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/Macgyver">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/Macgyver">
+<strong class="commented-by">Macgyver</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">3 months ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+if I buy paying $16, can I use this in an app that people will pay to use? </div>
+<div class="comment-replies">
+<div id="reply-766" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi, With one license, you can use it with one app only and also you will not be able to distribute it as a part of your app (if you are selling product). Please find more about licensing here https://shapebootstrap.net/licenses</div>
+<div class="reply-meta">
+<span>3 months ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-768" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/Macgyver">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/Macgyver">
+Macgyver </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">In Lincenses https://shapebootstrap.net/licenses<br/>
+You have two types: Free and Premium. I suppose in this case de Premium Licenses I get paying $16.<br/>
+But you told I will not be able to distribute it as a part of your app. In this case, how can a buy this theme with the License to use in my app and the users pay for it?</div>
+<div class="reply-meta">
+<span>3 months ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-876" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/manidone">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/manidone">
+<strong class="commented-by">manidone</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">1 month ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Hi, I just bought this this theme yesterday. How do I hide or turn off the sub menu contains those little icons etc...? I just wanted to keep the main menu. Please advise. Thanks. -Mani </div>
+<div class="comment-replies">
+<div id="reply-881" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi, If you would like to only keep main menu, then don't add class 'has-submenu' to li and remove html markup for child 'ul' element. Thanks.</div>
+<div class="reply-meta">
+<span>1 month ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-882" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/manidone">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/manidone">
+manidone </a>
+</strong>
+<span class="commenter-badge purchased">Purchased</span>
+<div class="comment-text">Hi, what I meant is to Invisible the Small Menu with Icons/Fly out. I just to keep the Main Regular menu with close/open enable. I wish could attach the screenshot here. Is there any way I can contact you by mail? Thanks again. </div>
+<div class="reply-meta">
+<span>1 month ago</span>
+</div>
+</div>
+</div>
+</div>
+<div id="reply-885" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Hi, Please send me screenshot over email. My email is <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="dbb8b4bfbea9afb3beb6bea89bbcb6bab2b7f5b8b4b6f5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> Thanks.</div>
+<div class="reply-meta">
+<span>1 month ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="1525168-1030" class="comment">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/mattr">
+<img class="avatar" src="/components/com_product/assets/images/avatar.jpg" alt="">
+</a>
+</div>
+<div class="media-body">
+<div>
+<a href="/profile/mattr">
+<strong class="commented-by">mattr</strong>
+</a>
+<span class="commenter-badge purchased">Purchased</span>
+<span class="commented-on">1 week ago</span>
+</div>
+</div>
+</div>
+<div class="comment-text">
+Hi I have downloaded the theme but when I visit the site using an iPad, the sub menu's do not open up? I went to the live demo of this theme using an iPad and the same issue occurs (touching the UI Elements and Components menu items) Is there a fix to allow the sub menus to work on an iPad. </div>
+<div class="comment-replies">
+<div id="reply-1036" class="comment-reply">
+<div class="media">
+<div class="pull-left">
+<a href="/profile/coderthemes">
+<img class="avatar" src="/media/com_product/users/3930/avatar.png" alt="">
+</a>
+</div>
+<div class="media-body">
+<strong>
+<a href="/profile/coderthemes">
+coderthemes </a>
+</strong>
+<span class="commenter-badge provider">Provider</span>
+<div class="comment-text">Please check your mail.</div>
+<div class="reply-meta">
+<span>7 days ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="login-to-reply box text-center">
+<i class="sb-icon-exclamation"></i>
+<p class="lead">Login to Comment</p>
+<p>You need be a registered member to post a comment.</p>
+<a class="btn btn-success btn-lg" href="/login">LOGIN TO COMMENT</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="product-price-purchase clearfix shadow">
+<div class="product-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<strong>Price: </strong><span itemprop="price">$16</span>
+<meta itemprop="priceCurrency" content="USD"/>
+<link itemprop="availability" href="http://schema.org/InStock"/>
+</div>
+<form class="purchase" action="/cart" method="post">
+<input type="hidden" name="buy_product_id" value="1525168"/>
+<button type="submit" class="product-purchase btn btn-success btn-lg btn-block">Purchase Now</button>
+</form>
+<form class="cart" action="" method="post">
+<input type="hidden" name="product_cart" value="1525168"/>
+<button type="submit" class="product-add-to-cart btn btn-primary btn-lg btn-block">Add To Cart</button>
+</form>
+</div>
+<div class="product-info shadow">
+<div class="product-sales clearfix">
+<div class="pull-left">
+<i class="sb-icon-purchased sb-color-success"></i><span class="hidden-sm"> Total Sales</span> </div>
+<div class="pull-right">
+135 </div>
+</div>
+<div class="product-loved clearfix">
+<div class="pull-left">
+<i class="sb-icon-love"></i><span class="hidden-sm"> Favorites</span>
+</div>
+<div class="pull-right">
+23 </div>
+</div>
+</div> 
+<div class="product-provider shadow">
+<div class="media">
+<div class="pull-left">
+<div class="avatar">
+<a href="/profile/coderthemes">
+<img src="/media/com_product/users/3930/avatar.png" alt="coderthemes">
+</a>
+</div>
+</div>
+<div class="media-body">
+<h4 class="media-heading"><a href="/profile/coderthemes">coderthemes</a></h4>
+<p><small>Registered: 03 October 2015</small></p>
+<div class="clearfix">
+<a class="btn btn-warning btn-sm" href="/profile/coderthemes" data-toggle="tooltip" data-placement="top" data-html="true" title="View <strong>coderthemes</strong>'s profile">VIEW PROFILE</a>
+<a class="btn btn-inverse btn-sm" href="/cdn-cgi/l/email-protection#d0b3bfb4b5a2a4b8b5bdb5a390b7bdb1b9bcfeb3bfbd" data-toggle="tooltip" data-placement="top" data-html="true" title="Contact with <strong>coderthemes</strong>"><i class="sb-icon-email"></i></a>
+</div>
+</div>
+</div>
+</div> 
+<div class="box">
+<h3 class="box-title clearfix"><i class="sb-icon-info sb-size-2x sb-color-success"></i> Item Information</h3>
+<ul class="unstyled">
+<li><strong>Released</strong>: 05 October 2015</li>
+<li><strong>Updated</strong>: 24 May 2016</li>
+<li><strong>Version</strong>: 3.0</li>
+<li><strong>Category</strong>: <a href="/items/category/html-templates/11-admin-templates">Admin Templates</a></li>
+<li><strong>Layout</strong>: Responsive</li>
+<li><strong>Retina Ready</strong>: Yes</li>
+<li><strong>Browser</strong>: IE10, IE11, Firefox, Safari, Opera, Chrome</li>
+<li><strong>Bootstrap</strong>: Bootstrap 3.x</li>
+<li><strong>Tags</strong>:
+<a class="product-tag" href="/items/tag/app-template">app template</a>, <a class="product-tag" href="/items/tag/admin-1">admin</a>, <a class="product-tag" href="/items/tag/control-panel">control panel</a>, <a class="product-tag" href="/items/tag/dashboard">dashboard</a>, <a class="product-tag" href="/items/tag/bootstrap">bootstrap</a>, <a class="product-tag" href="/items/tag/admin">admin</a>, <a class="product-tag" href="/items/tag/admin-template">Admin Template</a>, <a class="product-tag" href="/items/tag/bootstrap-theme">bootstrap theme</a>, <a class="product-tag" href="/items/tag/clean">clean</a>, <a class="product-tag" href="/items/tag/css3">css3</a>, <a class="product-tag" href="/items/tag/app">app</a> </li>
+</ul>
+</div>  </div>
+</div>
+</div></div>
+</div></div></div></div></section><section id="sp-bottom"><div class="container"><div class="row"><div id="sp-bottom1" class="col-sm-6 col-md-3"><div class="sp-column "><div class="sp-module _menu"><h3 class="sp-module-title">Knowledgebase</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-114"><a href="/copyright">Copyright</a></li><li class="item-116"><a href="/buyers-faq">Buyers Faq</a></li><li class="item-117"><a href="/sellers-faq">Sellers Faq</a></li><li class="item-115"><a href="/submission-guidelines">Submission Guidelines</a></li><li class="item-148"><a href="/payout-terms">Seller Payout Terms</a></li></ul>
+</div></div></div></div><div id="sp-bottom2" class="col-sm-6 col-md-3"><div class="sp-column "><div class="sp-module _menu"><h3 class="sp-module-title">Support</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-119"><a href="/forum">Community Forum</a></li><li class="item-128"><a href="/licenses">Licenses</a></li><li class="item-112"><a href="/terms-conditions">Terms &amp; Conditions</a></li><li class="item-113"><a href="/privacy-policy">Privacy Policy</a></li></ul>
+</div></div></div></div><div id="sp-bottom3" class="col-sm-6 col-md-6"><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Newsletter</h3><div class="sp-module-content"><div class="sendy subscribe" id="sendy-95">
+<div class="intro">
+Want more Bootstrap themes & templates? Subscribe to our mailing list to receive an update when new items arrive! </div>
+<form id="sendy-subscribe-95" class="row">
+<div class="col-sm-8">
+<input type="text" name="email" class="form-control" placeholder="Email Address"/>
+<p></p>
+</div>
+<div class="col-sm-4">
+<button type="submit" name="Sign up" class="btn btn-success btn-block btn-lg">Sign Up</button>
+</div>
+<input type="hidden" name="mid" value="95"/>
+</form>
+<small>We never spam!</small>
+</div>
+<script>
+    jQuery('form[id="sendy-subscribe-95"]').submit(function (form)
+    {
+        var formId = '#' + form.target.id;
+        var email = jQuery(formId + ' input[name=email]').val();
+        var url = 'email=' + email + '&f58c1dec3597e7b9f2759362373e5369=1&mid=95';
+        jQuery("#sendy-95").fadeOut('500');
+        jQuery.ajax({
+            url: 'https://shapebootstrap.net/modules/mod_sendy/ajax/subscribe.php',
+            data: url,
+            type: "POST",
+            dataType: 'text json',
+            success: function (ret)
+            {
+                if (ret.success == true)
+                {
+                    jQuery("#sendy-95").html(ret.html).fadeIn('1000');
+                }
+                else
+                {
+                    jQuery("#sendy-95").html("There was an error processing your subscription.").fadeIn('1000');
+                }
+            }
+        });
+        return false; // Don't actually submit the form
+    });
+</script></div></div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-6 col-md-6"><div class="sp-column "><span class="sp-copyright"> © 2016 ShapeBootstrap. Some Rights Reserved. A <a target="_blank" href="http://www.joomshaper.com">JoomShaper</a> Family.</span></div></div><div id="sp-footer2" class="col-sm-6 col-md-6"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<div class="custom">
+<div class="text-right"><img class="img-responsive" style="display: inline-block;" src="/images/payment-methods.png" alt="Payment Methods"/></div></div>
+</div></div></div></div></div></div></footer>
+<div class="offcanvas-menu">
+<a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
+<div class="offcanvas-inner">
+<div class="sp-module "><h3 class="sp-module-title">ShapeBootstrap</h3><div class="sp-module-content"><ul class="nav menu">
+<li class="item-101"><a href="/">Home</a></li><li class="item-105"><a href="/items">All Items</a></li><li class="item-111"><a href="/popular-items">Popular Items</a></li><li class="item-106"><a href="/free-templates">Free Templates</a></li><li class="item-118"><a href="/blog">Blog</a></li><li class="item-125 deeper parent"><a href="#">Help</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-125" role="button" aria-expanded="false" aria-controls="collapse-menu-125"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></span><ul class="collapse" id="collapse-menu-125"><li class="item-126"><a href="/forum">Community Forum</a></li><li class="item-123"><a href="/help/contact">Contact Us</a></li><li class="item-129"><a href="/licenses">Licenses</a></li></ul></li><li class="item-131"><a href="/affiliates">Affiliates</a></li></ul>
+</div></div>
+</div>
+</div>
+<div class="offcanvas-overlay"></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10309676-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

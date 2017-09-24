@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="MYOB" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://shapebootstrap.net"/>
+	<id>https://shapebootstrap.net/blog/30-freelancing</id>
+	<updated>2016-05-24T21:00:10+06:00</updated>
+	<author>
+		<name>ShapeBootstrap</name>
+		<email>support@shapebootstrap.net</email>
+	</author>
+	<generator>MYOB</generator>
+	<link rel="self" type="application/atom+xml" href="https://shapebootstrap.net/blog/30-freelancing?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Apps every freelancer must use to boost productivity</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/30-freelancing/68-apps-every-freelancer-must-use-to-boost-productivity"/>
+		<published>2016-05-05T20:09:06+06:00</published>
+		<updated>2016-05-05T20:09:06+06:00</updated>
+		<id>https://shapebootstrap.net/blog/30-freelancing/68-apps-every-freelancer-must-use-to-boost-productivity</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Serious freelancers value every minute in a day. It doesn’t matter whether you are a professional or part-time freelancer, you must value your time and resources. Besides using the best suitable communication apps such as Skype, Slack, email clients and so on, the better you can manage your workflow, the greater incoming transaction will be possible. Today I’ll tell you about some apps you must use to boost your productivity.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Serious freelancers value every minute in a day. It doesn’t matter whether you are a professional or part-time freelancer, you must value your time and resources. Besides using the best suitable communication apps such as Skype, Slack, email clients and so on, the better you can manage your workflow, the greater incoming transaction will be possible. Today I’ll tell you about some apps you must use to boost your productivity.&lt;/p&gt;
+</content>
+		<category term="Freelancing" />
+	</entry>
+	<entry>
+		<title>5 keys to be a successful freelancer</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/30-freelancing/61-5-keys-to-be-a-successful-freelancer"/>
+		<published>2016-03-21T20:02:37+06:00</published>
+		<updated>2016-03-21T20:02:37+06:00</updated>
+		<id>https://shapebootstrap.net/blog/30-freelancing/61-5-keys-to-be-a-successful-freelancer</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Freelancing is a buzzword, both in developed and developing countries. People are increasingly choosing freelancing to make a living. Competition is going up in the freelance marketplaces like &lt;a href=&quot;https://www.upwork.com/&quot; target=&quot;_blank&quot;&gt;Upwork&lt;/a&gt;, &lt;a href=&quot;https://www.freelancer.com/&quot; target=&quot;_blank&quot;&gt;Freelancer&lt;/a&gt;, &lt;a href=&quot;https://www.fiverr.com/&quot; target=&quot;_blank&quot;&gt;Fiverr&lt;/a&gt; and so on. At this stage, one must mark himself different than others in order to win a bid and achieve the ultimate success. But how?&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Freelancing is a buzzword, both in developed and developing countries. People are increasingly choosing freelancing to make a living. Competition is going up in the freelance marketplaces like &lt;a href=&quot;https://www.upwork.com/&quot; target=&quot;_blank&quot;&gt;Upwork&lt;/a&gt;, &lt;a href=&quot;https://www.freelancer.com/&quot; target=&quot;_blank&quot;&gt;Freelancer&lt;/a&gt;, &lt;a href=&quot;https://www.fiverr.com/&quot; target=&quot;_blank&quot;&gt;Fiverr&lt;/a&gt; and so on. At this stage, one must mark himself different than others in order to win a bid and achieve the ultimate success. But how?&lt;/p&gt;
+</content>
+		<category term="Freelancing" />
+	</entry>
+</feed>

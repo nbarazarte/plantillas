@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="MYOB" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://shapebootstrap.net"/>
+	<id>https://shapebootstrap.net/blog/32-free-resources</id>
+	<updated>2016-05-24T20:59:51+06:00</updated>
+	<author>
+		<name>ShapeBootstrap</name>
+		<email>support@shapebootstrap.net</email>
+	</author>
+	<generator>MYOB</generator>
+	<link rel="self" type="application/atom+xml" href="https://shapebootstrap.net/blog/32-free-resources?format=feed&amp;type=atom"/>
+	<entry>
+		<title>10 stunning free countdown timer scripts for your next theme</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/32-free-resources/70-10-stunning-free-countdown-timer-scripts-for-your-next-theme"/>
+		<published>2016-05-17T19:00:22+06:00</published>
+		<updated>2016-05-17T19:00:22+06:00</updated>
+		<id>https://shapebootstrap.net/blog/32-free-resources/70-10-stunning-free-countdown-timer-scripts-for-your-next-theme</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Countdown timers are used on websites to tell the visitors that something is coming after the time remaining on the tick-tock clock. Companies need a countdown timer to build a better “Coming Soon” page. Event organizers also use a timer to communicate the stakeholders that how much time is left until the event starts. Today we will see 10 cool countdown timers you can use for free.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Countdown timers are used on websites to tell the visitors that something is coming after the time remaining on the tick-tock clock. Companies need a countdown timer to build a better “Coming Soon” page. Event organizers also use a timer to communicate the stakeholders that how much time is left until the event starts. Today we will see 10 cool countdown timers you can use for free.&lt;/p&gt;
+</content>
+		<category term="Free Resources" />
+	</entry>
+</feed>

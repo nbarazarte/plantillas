@@ -1,0 +1,805 @@
+
+/*
+	* Style settings of WeatherSlider
+	*
+	* (c) 2011-2013 George Krupa, John Gera & Kreatura Media
+	*
+	* Plugin web:			http://kreaturamedia.com/
+	* Licenses:				http://codecanyon.net/licenses/
+*/
+
+
+
+/* Removing all default global styles */
+
+.ws-container img {
+	box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border: none !important;
+}
+
+html * .ws-container p,
+body * .ws-container p,
+.ws-container p {
+	line-height: normal !important;
+	padding: 0px;
+	padding-bottom: 0px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin: 0px !important;
+}
+
+.wp-search,
+.ws-container input {
+	line-height: normal !important;
+	padding: 0px !important;
+	text-align: center !important;
+}
+
+.ws-container img,
+.ws-container input {
+	border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+}
+
+
+
+/* Global styles */
+
+.ws-container {
+	border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	-webkit-border-radius: 6px !important;	
+}
+
+.ws-fullbg,
+.ws-bottombg,
+.ws-icy {
+	border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+}
+
+.ws-container {
+	margin: 0px auto;
+	background: rgb(51,51,51) !important;
+	background: -moz-linear-gradient(top, rgba(51,51,51,1) 0%, rgba(17,17,17,1) 46%, rgba(17,17,17,1) 53%, rgba(51,51,51,1) 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,51,51,1)), color-stop(46%,rgba(17,17,17,1)), color-stop(53%,rgba(17,17,17,1)), color-stop(100%,rgba(51,51,51,1))) !important;
+	background: -webkit-linear-gradient(top, rgba(51,51,51,1) 0%,rgba(17,17,17,1) 46%,rgba(17,17,17,1) 53%,rgba(51,51,51,1) 100%) !important;
+	background: -o-linear-gradient(top, rgba(51,51,51,1) 0%,rgba(17,17,17,1) 46%,rgba(17,17,17,1) 53%,rgba(51,51,51,1) 100%) !important;
+	background: -ms-linear-gradient(top, rgba(51,51,51,1) 0%,rgba(17,17,17,1) 46%,rgba(17,17,17,1) 53%,rgba(51,51,51,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(51,51,51,1) 0%,rgba(17,17,17,1) 46%,rgba(17,17,17,1) 53%,rgba(51,51,51,1) 100%) !important;
+	box-shadow: 0px 2px 10px -2px #000 !important;
+	-o-box-shadow: 0px 2px 10px -2px #000 !important;
+	-moz-box-shadow: 0px 2px 10px -2px #000 !important;
+	-webkit-box-shadow: 0px 2px 10px -2px #000 !important;
+	text-align: left !important;
+	line-height: normal;
+	border: 0px !important;
+	padding: 0px !important;
+}
+
+
+
+/* Common */
+
+.ws-container * {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-weight: 200;
+}
+
+.ws-container img,
+.ws-container div {
+	position: absolute;
+}
+
+.ws-container img {
+	max-width: none !important;
+	padding: 0px !important;
+	background-color: transparent !important;
+	border: 0px !important;
+}
+
+.ws-inner {
+	width: 100% !important;
+	height: 100%;
+	overflow: hidden !important;
+	z-index: 1000 !important;
+	left: 0px !important;
+	top: 0px !important;
+}
+
+.ws-location {
+	display: none;
+}
+
+
+
+/* Navigation */
+
+.ws-nav {
+	position: absolute !important;
+	z-index: 2000 !important;
+	display: none;
+	height: 25px !important;
+	top: 50% !important;
+	margin-top: -12px !important;
+	background-repeat: no-repeat !important;
+	opacity: .5;
+	width: 25px !important;
+	text-decoration: none !important;
+}
+
+.ws-nav:hover {
+	opacity: 1;
+	color: #eee !important;
+}
+
+.ws-prev-arrow {
+	left: 10px !important;
+	outline: none !important;
+}
+
+.ws-next-arrow {
+	background-position: right -25px !important;
+	right: 10px !important;
+	outline: none !important;
+}
+
+.ws-prev-text,
+.ws-next-text {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-weight: bold !important;
+	color: #fff !important;
+	display: none;
+	position: absolute !important;
+	height: 25px !important;
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	line-height: 25px !important;
+	font-size: 14px !important;
+	outline: none !important;
+	text-shadow: 0px 0px 3px #777;
+}
+
+.ws-prev-text {
+	left: 25px !important;
+	padding-left: 10px !important;
+}
+
+.ws-next-text {
+	right: 25px !important;
+	padding-right: 10px !important;
+	text-align: right !important;
+}
+
+
+
+/* Loading */
+
+.ws-loading {
+	width: 200px !important;
+	height: 40px !important;
+	position: absolute !important;
+	left: 50% !important;
+	margin-left: -100px !important;
+	top: 50% !important;
+	margin-top: -20px !important;
+	line-height: 20px !important;
+	text-align: center !important;
+	font-size: 14px !important;
+	color: #fff !important;
+	text-shadow: 0px -1px 0px #777 !important;
+	-moz-text-shadow: 0px -1px 0px #777 !important;
+	-webkit-text-shadow: 0px -1px 0px #777 !important;
+	display: none;
+	z-index: 1500 !important;
+}
+
+.ws-loading span {
+	font-weight: bold !important;
+}
+
+
+
+/* Searchbox */
+
+.ws-search {
+	width: 100% !important;
+	height: 45% !important;
+	position: absolute !important;
+	left: 0px !important;
+	top: 0px !important;
+	z-index: 1300 !important;
+	background: url(../img/blank.gif) !important;
+}
+
+.ws-search-hidden {
+	width: 100% !important;
+	height: 0px;
+	position: absolute !important;
+	left: 0px !important;
+	bottom: 100% !important;
+	overflow: hidden !important;
+	background: url(../img/blank.gif) !important;
+}
+
+.ws-searchbox {
+	width: 70% !important;
+	position: absolute !important;
+	left: 15% !important;
+	top: 0px !important;	
+	background: url(../img/blank.gif) !important;
+}
+
+.ws-searchbox input {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute !important;
+	left: 0px !important;
+	top: 0px !important;
+	background: transparent !important;
+	color: #eee !important;
+	text-align: center !important;
+	font-size: 14px;
+	background: url(../img/blank.gif) !important;
+	border: 0px !important;
+	outline: none !important;
+	vertical-align: baseline !important;
+}
+
+.ws-searchbox .ws-bg {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute !important;
+	left: -1px !important;
+	top: -1px !important;
+	border: 1px solid #aaa !important;
+	background: black !important;
+	opacity: .65 !important;
+	filter: alpha(opacity=65) !important;
+	border-radius: 100px !important;
+	-moz-border-radius: 100px !important;
+	-webkit-border-radius: 100px !important;
+	box-shadow: 0px 5px 20px -2px black !important;
+	-o-box-shadow: 0px 5px 20px -2px black !important;
+	-moz-box-shadow: 0px 5px 20px -2px black !important;
+	-webkit-box-shadow: 0px 5px 20px -2px black !important;
+}
+
+/* Infobox */
+
+.ws-infobox {
+	position: absolute !important;
+	float: left !important;
+	left: 50% !important;
+	padding: 20px;
+	bottom: 20px;
+	z-index: 1100 !important;
+	margin-bottom: -1000px;
+}
+
+.ws-infobox * {
+	white-space: nowrap;
+}
+
+.ws-infobox .ws-bg {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute !important;
+	left: 0px !important;
+	top: 0px !important;
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	box-shadow: 0px 5px 20px -2px black !important;
+	-o-box-shadow: 0px 5px 20px -2px black !important;
+	-moz-box-shadow: 0px 5px 20px -2px black !important;
+	-webkit-box-shadow: 0px 5px 20px -2px black !important;
+	background: black !important;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.75))) !important;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.75) 100%) !important;
+	background: -o-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.75) 100%) !important;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.75) 100%) !important;
+	background: linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.75) 100%) !important;
+	filter: alpha(opacity=65) !important;
+}
+
+.ws-infobox h1,
+.ws-infobox p,
+.ws-infobox .ws-iinner {
+	position: relative !important;
+}
+
+.ws-infobox p {
+	margin: 0px !important;
+}
+
+.ws-infobox h1 {
+	margin: 0px !important;
+	padding-bottom: 5px;
+	white-space: nowrap !important;
+}
+
+.ws-infobox h1,
+.ws-infobox h1 .ws-loc {
+	font-size: 22px;	
+	font-weight: bold !important;
+}
+
+.ws-infobox h1 .ws-time {
+	font-size: 15px;
+	text-transform: uppercase !important;
+}
+
+.ws-infobox h1 span {
+	color: #ddd !important;
+}
+
+.ws-weather,
+.ws-line {
+	position: relative !important;
+}
+
+.ws-weather {
+	font-size: 18px;
+}
+
+.ws-weather span {
+	font-weight: bold !important;
+}
+
+.ws-line {
+	font-size: 15px;
+}
+
+.ws-line,
+.ws-line span,
+.ws-weather span {
+	color: #ccc !important;
+}
+
+.ws-line span,
+.ws-weather span {
+	font-size: 100% !important;
+}
+
+
+.ws-forecast,
+.ws-finner {
+	position: relative !important;
+}
+
+.ws-forecast {
+	height: 0px;
+	overflow: hidden !important;
+}
+
+.ws-container p.ws-fline {
+	font-weight: bold !important;
+	padding-top: 5px;
+}
+
+
+
+/* Backgrounds */
+
+.ws-fullbg {
+	width: 100% !important;
+	height: 100% !important;
+	left: 0px !important;
+	top: 0px !important;
+	display: none;
+	z-index: 20 !important;
+}
+
+	/* CSS3 animation*/
+
+	.ws-fullbg-animating {
+		animation: fullbg 100s linear 0s infinite normal;
+		-o-animation: fullbg 100s linear 0s infinite normal;
+		-ms-animation: fullbg 100s linear 0s infinite normal;
+		-moz-animation: fullbg 100s linear 0s infinite normal;
+		-webkit-animation: fullbg 100s linear 0s infinite normal;
+	}
+
+	@keyframes fullbg {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: -1300px 0px;
+		}
+	}
+
+	@-o-keyframes fullbg {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: -1300px 0px;
+		}
+	}
+
+	@-ms-keyframes fullbg {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: -1300px 0px;
+		}
+	}
+
+	@-moz-keyframes fullbg {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: -1300px 0px;
+		}
+	}
+
+	@-webkit-keyframes fullbg {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: -1300px 0px;
+		}
+	}
+
+.ws-fixed {
+	z-index: 10 !important;
+}
+
+.ws-bottombg {
+	width: 100% !important;
+	height: 98px;
+	left: 0px !important;
+	bottom: 0px !important;
+	margin-bottom: -98px;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	z-index: 1020 !important;
+}
+
+	/* CSS3 animation*/
+
+	.ws-bottombg-animating {
+		animation: fullbg 200s linear 0s infinite normal;
+		-o-animation: fullbg 200s linear 0s infinite normal;
+		-ms-animation: fullbg 200s linear 0s infinite normal;
+		-moz-animation: fullbg 200s linear 0s infinite normal;
+		-webkit-animation: fullbg 200s linear 0s infinite normal;
+	}
+
+
+
+/* Sun and Moon */
+
+.ws-sunmoon {
+	left: 50% !important;
+	top: 0px !important;
+	margin-left: -146px;
+	margin-top: -70px;
+	z-index: 400 !important;
+}
+
+
+
+/* Clouds and Fog / Mist */
+
+.ws-cloud1,
+.ws-cloud2,
+.ws-cloud3,
+.ws-cloud4 {
+	left: 50% !important;
+	top: 0px !important;
+}
+
+.ws-cloud1 {
+	margin-left: -180px;
+	margin-top: -50px;
+	z-index: 420 !important;
+}
+
+.ws-cloud2 {
+	margin-left: -430px;
+	margin-top: 20px;
+	z-index: 430 !important;
+}
+
+.ws-cloud3 {
+	margin-left: 10px;
+	margin-top: 40px;
+	z-index: 440 !important;
+}
+
+.ws-cloud4 {
+	margin-left: -500px;
+	margin-top: -35px;
+	z-index: 410 !important;
+}
+
+.ws-fog {
+	left: 50%;
+	top: 50%;
+	margin-left: -494px;
+	margin-top: -175px;
+	z-index: 410 !important;
+}
+
+
+
+/* Rain */
+
+.ws-rain {
+	width: 70% !important;
+	height: 80% !important;
+	left: 50% !important;
+	bottom: 0px;
+	margin-left: -35%;
+	z-index: 300 !important;
+	opacity: 0;
+	border-radius: 50px !important;
+	-moz-border-radius: 50px !important;
+	-webkit-border-radius: 50px !important;
+}
+
+	/* CSS3 animation*/
+
+	.ws-rain-animating {
+		animation: raining 1s linear 0s infinite normal;
+		-o-animation: raining 1s linear 0s infinite normal;
+		-ms-animation: raining 1s linear 0s infinite normal;
+		-moz-animation: raining 1s linear 0s infinite normal;
+		-webkit-animation: raining 1s linear 0s infinite normal;
+	}
+
+	@keyframes raining {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-o-keyframes raining {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-ms-keyframes raining {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-moz-keyframes raining {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-webkit-keyframes raining {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+
+
+/* Snow and Icy */
+
+.ws-snow {
+	height: 80%;
+	left: 50%;
+	bottom: 0px;
+	z-index: 300;
+	opacity: 0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.ws-snow-small {
+	width: 74%;	
+	margin-left: -37%;
+}
+
+.ws-snow-big {
+	width: 66%;	
+	margin-left: -33%;
+}
+
+	/* CSS3 animation*/
+
+	.ws-snowsmall-animating {
+		animation: snowsmall 3s linear 0s infinite normal;
+		-o-animation: snowsmall 3s linear 0s infinite normal;
+		-ms-animation: snowsmall 3s linear 0s infinite normal;
+		-moz-animation: snowsmall 3s linear 0s infinite normal;
+		-webkit-animation: snowsmall 3s linear 0s infinite normal;
+	}
+
+	@keyframes snowsmall {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-o-keyframes snowsmall {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-ms-keyframes snowsmall {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-moz-keyframes snowsmall {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-webkit-keyframes snowsmall {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	.ws-snowbig-animating {
+		animation: snowbig 5s linear 0s infinite normal;
+		-o-animation: snowbig 5s linear 0s infinite normal;
+		-ms-animation: snowbig 5s linear 0s infinite normal;
+		-moz-animation: snowbig 5s linear 0s infinite normal;
+		-webkit-animation: snowbig 5s linear 0s infinite normal;
+	}
+
+	@keyframes snowbig {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-o-keyframes snowbig {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-ms-keyframes snowbig {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-moz-keyframes snowbig {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+	@-webkit-keyframes snowbig {
+		0% {
+			background-position: 0px 0px;
+		}
+		100% {
+			background-position: 0px 200px;
+		}
+	}
+
+.ws-icy {
+	position: absolute !important;
+	height: 100% !important;
+	width: 30%;
+	z-index: 400 !important;
+}
+
+.ws-icy-left {
+	left: 0px;
+	bottom: 0px;
+}
+
+.ws-icy-right {
+	right: 0px;
+	bottom: 0px;
+}
+
+
+
+/* Lightnings */
+
+.ws-lightnings {
+	left: 50%;
+	top: 0px;
+	z-index: 200 !important;
+	display: none;
+}
+
+.ws-lightning1 {
+	margin-left: -350px;
+	margin-top: 70px;
+}
+
+.ws-lightning2 {
+	margin-left: -350px;
+}
+
+.ws-lightning3 {
+	margin-left: 20px;
+	margin-top: -80px;
+}
+
+.ws-lightning4 {
+	margin-left: -400px;
+	margin-top: 0px;
+}
+
+
+
+/* Transparent */
+
+.ws-transparent {
+	background: none transparent !important;	
+	box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.ws-transparent .ws-infobox .ws-bg {
+	box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}

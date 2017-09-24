@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://theme145-stationery.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://theme145-stationery.myshopify.com/collections/paper-products/sit-amet.atom"/>
+  <title>Stationery</title>
+  <updated>2015-02-23T12:03:30-05:00</updated>
+  <author>
+    <name>Stationery</name>
+  </author>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219472</id>
+    <published>2015-02-23T12:03:30-05:00</published>
+    <updated>2015-02-23T12:03:30-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/vaultz-330-disc-capacity-locking-cd-dvd-cabinet"/>
+    <title>Vaultz 330 Disc Capacity Locking CD-DVD Cabinet</title>
+    <s:type>Supplies</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/vaultz_330_disc_capacity_locking_cd-dvd_cabinet__1.png?v=1424711015" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Supplies<br>
+        <strong>Price: </strong>
+            41.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores. Delivery system was always one of our main trumps – you don’t have to worry about the safety of your order. Home delivery is a very widespread service nowadays and it is obvious that our company also offers such kind of delivery.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219472</id>
+      <title>Default Title</title>
+      <s:price currency="USD">41.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219460</id>
+    <published>2015-02-23T12:03:24-05:00</published>
+    <updated>2015-02-23T12:03:24-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/rubbermaid-cleaning-cart-sanitizing-caddy"/>
+    <title>Rubbermaid Cleaning Cart Sanitizing Caddy</title>
+    <s:type>Writing</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/rubbermaid_cleaning_cart_sanitizing_caddy_1.png?v=1424711009" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Writing<br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores. Delivery system was always one of our main trumps – you don’t have to worry about the safety of your order.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219460</id>
+      <title>Default Title</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219444</id>
+    <published>2015-02-23T12:03:17-05:00</published>
+    <updated>2015-02-23T12:03:17-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/rubbermaid-cleaning-cart"/>
+    <title>Rubbermaid Cleaning Cart</title>
+    <s:type>Furniture</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/rubbermaid_cleaning_cart_1.png?v=1424711003" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Furniture<br>
+        <strong>Price: </strong>
+            37.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219444</id>
+      <title>Default Title</title>
+      <s:price currency="USD">37.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219424</id>
+    <published>2015-02-23T12:03:12-05:00</published>
+    <updated>2015-02-23T12:03:12-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/retractable-ball-pen-6526-0-7mm"/>
+    <title>Retractable ball pen 6526, 0.7mm</title>
+    <s:type>Technology</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/retractable_ball_pen_6526_07mm_1.png?v=1424710996" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Technology<br>
+        <strong>Price: </strong>
+            35.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>We are glad to deliver you the premium products and first class services. You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our range of goods counts more than 5000 world famous brands and even own branded office products.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219424</id>
+      <title>Default Title</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219412</id>
+    <published>2015-02-23T12:03:05-05:00</published>
+    <updated>2015-02-23T12:03:05-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/notebook-7920-160pages-18k"/>
+    <title>Notebook 7920, 160pages-18k</title>
+    <s:type>Supplies</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/notebook_7920_160pages-18k_1.png?v=1424710991" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Supplies<br>
+        <strong>Price: </strong>
+            33.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Being #1 Stationery store is our mission and we are proud to follow it year by year. We are glad to deliver you the premium products and first class services. You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219412</id>
+      <title>Default Title</title>
+      <s:price currency="USD">33.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219392</id>
+    <published>2015-02-23T12:02:59-05:00</published>
+    <updated>2015-02-23T12:02:59-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/manager-chair-c105a01-mesh-net"/>
+    <title>Manager Chair, C105A01 Mesh &amp; Net</title>
+    <s:type>Writing</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/manager_chair_c105a01_mesh___net_1.png?v=1424710984" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Writing<br>
+        <strong>Price: </strong>
+            31.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>And remember – our prices are fair enough to make your visit really pleasant. Being #1 Stationery store is our mission and we are proud to follow it year by year. We are glad to deliver you the premium products and first class services. You should know that as a customer you will get huge benefits while cooperating with our company. Our range of goods counts more than 5000 world famous brands and even own branded office products.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219392</id>
+      <title>Default Title</title>
+      <s:price currency="USD">31.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219376</id>
+    <published>2015-02-23T12:02:54-05:00</published>
+    <updated>2015-02-23T12:02:54-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/le-corbusier-lc7-chair-furniture"/>
+    <title>Le Corbusier LC7 Chair furniture</title>
+    <s:type>Furniture</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/le_corbusier_lc7_chair_furniture_1.png?v=1424710978" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Furniture<br>
+        <strong>Price: </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>So, please don’t hesitate to leave your comments and of course visit our store – we are sure that you’ll find many useful things here. And remember – our prices are fair enough to make your visit really pleasant. Being #1 Stationery store is our mission and we are proud to follow it year by year. We are glad to deliver you the premium products and first class services.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219376</id>
+      <title>Default Title</title>
+      <s:price currency="USD">29.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219364</id>
+    <published>2015-02-23T12:02:48-05:00</published>
+    <updated>2015-02-23T12:02:48-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/kartell-maui-stacking-chair"/>
+    <title>Kartell Maui Stacking Chair</title>
+    <s:type>Technology</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/kartell_maui_stacking_chair_1.png?v=1424710973" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Technology<br>
+        <strong>Price: </strong>
+            27.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>We really hope that you’ll enjoy your experience of working with our store and we would be glad to receive any feedback about our services and products. So, please don’t hesitate to leave your comments and of course visit our store – we are sure that you’ll find many useful things here. And remember – our prices are fair enough to make your visit really pleasant. High quality and low prices are the cornerstones of our business.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219364</id>
+      <title>Default Title</title>
+      <s:price currency="USD">27.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219352</id>
+    <published>2015-02-23T12:02:42-05:00</published>
+    <updated>2015-02-23T12:02:42-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/iron-3-hole-punch-0116"/>
+    <title>Iron 3-hole punch 0116</title>
+    <s:type>Supplies</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/iron_3-hole_punch_0116_1.png?v=1424710967" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Supplies<br>
+        <strong>Price: </strong>
+            25.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>High quality and low prices are the cornerstones of our business. We really hope that you’ll enjoy your experience of working with our store and we would be glad to receive any feedback about our services and products. So, please don’t hesitate to leave your comments and of course visit our store – we are sure that you’ll find many useful things here. And remember – our prices are fair enough to make your visit really pleasant.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219352</id>
+      <title>Default Title</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219328</id>
+    <published>2015-02-23T12:02:36-05:00</published>
+    <updated>2015-02-23T12:02:36-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/hp-office-quickpack-paper-92-brightness"/>
+    <title>HP Office Quickpack Paper, 92 Brightness</title>
+    <s:type>Writing</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/hp_office_quickpack_paper_92_brightness_1.png?v=1424710961" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Writing<br>
+        <strong>Price: </strong>
+            23.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>It means that you can easily choose the best office supplies and other related goods at our store without any problems. High quality and low prices are the cornerstones of our business. We really hope that you’ll enjoy your experience of working with our store and we would be glad to receive any feedback about our services and products. And remember – our prices are fair enough to make your visit really pleasant.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219328</id>
+      <title>Default Title</title>
+      <s:price currency="USD">23.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219300</id>
+    <published>2015-02-23T12:02:31-05:00</published>
+    <updated>2015-02-23T12:02:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/hp-deskjet-6840-6840dt-6840xi-inkjet-printer-photo-ink-cartridge"/>
+    <title>HP DeskJet 6840 - 6840dt - 6840xi InkJet Printer Photo Ink Cartridge</title>
+    <s:type>Furniture</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/hp_deskjet_6840_-_6840dt_-_6840xi_inkjet_printer_photo_ink_cartridge_1.png?v=1424710955" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Furniture<br>
+        <strong>Price: </strong>
+            21.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our range of goods counts more than 5000 world famous brands and even own branded office products. It means that you can easily choose the best office supplies and other related goods at our store without any problems. High quality and low prices are the cornerstones of our business. We really hope that you’ll enjoy your experience of working with our store and we would be glad to receive any feedback about our services and products.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Sit amet</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219300</id>
+      <title>Default Title</title>
+      <s:price currency="USD">21.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219276</id>
+    <published>2015-02-23T12:02:25-05:00</published>
+    <updated>2015-02-23T12:02:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/georgia-pacific-compact-high-capacity-bathroom-tissue-dispenser"/>
+    <title>Georgia Pacific Compact High-capacity Bathroom Tissue Dispenser</title>
+    <s:type>Technology</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/georgia_pacific_compact_high-capacity_bathroom_tissue_dispenser__1_83342d13-a9ac-42b2-ab8a-24e774ec3943.png?v=1424710950" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Technology<br>
+        <strong>Price: </strong>
+            19.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Home delivery is a very widespread service nowadays and it is obvious that our company also offers such kind of delivery. Our range of goods counts more than 5000 world famous brands and even own branded office products. It means that you can easily choose the best office supplies and other related goods at our store without any problems. High quality and low prices are the cornerstones of our business.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dolor</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219276</id>
+      <title>Default Title</title>
+      <s:price currency="USD">19.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219252</id>
+    <published>2015-02-23T12:02:19-05:00</published>
+    <updated>2015-02-23T12:02:19-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/dvd-r-patron-4-7-gb-16x"/>
+    <title>DVD+R PATRON 4.7 GB 16x</title>
+    <s:type>Supplies</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/dvd-r_patron_47_gb_16x_1.png?v=1424710944" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Supplies<br>
+        <strong>Price: </strong>
+            17.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Delivery system was always one of our main trumps – you don’t have to worry about the safety of your order. Home delivery is a very widespread service nowadays and it is obvious that our company also offers such kind of delivery. Our range of goods counts more than 5000 world famous brands and even own branded office products. High quality and low prices are the cornerstones of our business.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dolor</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219252</id>
+      <title>Default Title</title>
+      <s:price currency="USD">17.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219232</id>
+    <published>2015-02-23T12:02:14-05:00</published>
+    <updated>2015-02-23T12:02:14-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/cutting-knife-2003-0-5x18x100mm"/>
+    <title>Cutting knife 2003, 0.5x18x100mm</title>
+    <s:type>Writing</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/cutting_knife_2003_05x18x100mm_1.png?v=1424710938" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Writing<br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores. Delivery system was always one of our main trumps – you don’t have to worry about the safety of your order. Home delivery is a very widespread service nowadays and it is obvious that our company also offers such kind of delivery.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dolor</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219232</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219216</id>
+    <published>2015-02-23T12:02:08-05:00</published>
+    <updated>2015-02-23T12:02:08-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/belkin-skype-internet-desk-phone"/>
+    <title>Belkin Skype Internet Desk Phone</title>
+    <s:type>Furniture</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/belkin_skype_internet_desk_phone_1.png?v=1424710933" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Furniture<br>
+        <strong>Price: </strong>
+            13.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores. Delivery system was always one of our main trumps – you don’t have to worry about the safety of your order.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Lorem ipsum</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219216</id>
+      <title>Default Title</title>
+      <s:price currency="USD">13.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219196</id>
+    <published>2015-02-23T12:02:01-05:00</published>
+    <updated>2015-02-23T12:02:01-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/_multi_colored-pressure-file-a4"/>
+    <title>_Multi_Colored Pressure File A4</title>
+    <s:type>Technology</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/multi_colored_pressure_file_a4_1.png?v=1424710927" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Technology<br>
+        <strong>Price: </strong>
+            11.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our nationwide stationery stores network attracts many clients with additional services that are available for our clients at any of our stores.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Lorem ipsum</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219196</id>
+      <title>Default Title</title>
+      <s:price currency="USD">11.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219180</id>
+    <published>2015-02-23T12:01:55-05:00</published>
+    <updated>2015-02-23T12:01:55-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/2-hole-punch-0102"/>
+    <title>2-hole punch 0102</title>
+    <s:type>Supplies</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/2-hole_punch_0102_1.png?v=1424710920" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Supplies<br>
+        <strong>Price: </strong>
+            9.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>We are glad to deliver you the premium products and first class services. You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time. Our range of goods counts more than 5000 world famous brands and even own branded office products.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Lorem ipsum</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219180</id>
+      <title>Default Title</title>
+      <s:price currency="USD">9.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/products/432219164</id>
+    <published>2015-02-23T12:01:49-05:00</published>
+    <updated>2015-02-23T12:01:49-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/products/2-d-ring-file-a4"/>
+    <title>2-D Ring File A4</title>
+    <s:type>Writing</s:type>
+    <s:vendor>Stationery</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0780/5743/products/2-d_ring_file_a4_1.png?v=1424710914" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Stationery<br>
+        <strong>Type: </strong>Writing<br>
+        <strong>Price: </strong>
+            7.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Being #1 Stationery store is our mission and we are proud to follow it year by year. We are glad to deliver you the premium products and first class services. You should know that as a customer you will get huge benefits while cooperating with our company. Our customer care policy helped us stay at the top of our business for over fifteen years because we know our business and do our job reliably every time.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Lorem ipsum</s:tag>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219164</id>
+      <title>Default Title</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219164</id>
+      <title>Variant 1</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219164</id>
+      <title>Variant 2</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://theme145-stationery.myshopify.com/products/432219164</id>
+      <title>Variant 3</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

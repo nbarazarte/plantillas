@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://theme145-stationery.myshopify.com/blogs/blog.atom</id>
+  <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/blogs/blog"/>
+  <link rel="self" type="application/atom+xml" href="https://theme145-stationery.myshopify.com/blogs/blog/tagged/paper-products.atom"/>
+  <title>Stationery - Blog</title>
+  <updated>2015-02-24T03:52:42-05:00</updated>
+  <author>
+    <name>Stationery</name>
+  </author>
+  <entry>
+    <id>https://theme145-stationery.myshopify.com/blogs/blog/17383268-harum-at-sequi-impedit</id>
+    <published>2015-02-24T03:52:42-05:00</published>
+    <updated>2015-02-24T03:52:42-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://theme145-stationery.myshopify.com/blogs/blog/17383268-harum-at-sequi-impedit"/>
+    <title>Harum, at sequi impedit</title>
+    <author>
+      <name>David Braun</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p style="text-align: left;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/belkin_skype_internet_desk_phone_1_compact.png?v=1424710933" style="margin-right: 10px; margin-bottom: 10px; float: none;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/dvd-r_patron_47_gb_16x_2_compact.png?v=1424710944" style="margin-right: 10px; margin-bottom: 10px; float: none;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/vaultz_330_disc_capacity_locking_cd-dvd_cabinet__4_compact.png?v=1424711015" style="margin-right: 10px; margin-bottom: 10px; float: none;"></p>
+<h3>Harum, at sequi impedit suscipit delectus excepturi sint</h3>
+<p>Quaerat, facilis, deleniti, minima similique iusto veritatis excepturi magni ab nisi pariatur tempora ipsum voluptates vitae amet velit est sunt optio ad ex cum aut blanditiis nam asperiores libero ipsa. Aperiam, labore eos magnam dolore rem provident qui numquam ex cumque suscipit cupiditate consequatur corporis accusantium deserunt iure doloremque eveniet consectetur cum assumenda veniam distinctio omnis ipsa alias.</p><p><a class="read-more" href="https://theme145-stationery.myshopify.com/blogs/blog/17383268-harum-at-sequi-impedit">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p style="text-align: left;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/belkin_skype_internet_desk_phone_1_compact.png?v=1424710933" style="margin-right: 10px; margin-bottom: 10px; float: none;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/dvd-r_patron_47_gb_16x_2_compact.png?v=1424710944" style="margin-right: 10px; margin-bottom: 10px; float: none;"><img alt="" src="//cdn.shopify.com/s/files/1/0780/5743/products/vaultz_330_disc_capacity_locking_cd-dvd_cabinet__4_compact.png?v=1424711015" style="margin-right: 10px; margin-bottom: 10px; float: none;"></p>
+<h3>Harum, at sequi impedit suscipit delectus excepturi sint</h3>
+<p>Quaerat, facilis, deleniti, minima similique iusto veritatis excepturi magni ab nisi pariatur tempora ipsum voluptates vitae amet velit est sunt optio ad ex cum aut blanditiis nam asperiores libero ipsa. Aperiam, labore eos magnam dolore rem provident qui numquam ex cumque suscipit cupiditate consequatur corporis accusantium deserunt iure doloremque eveniet consectetur cum assumenda veniam distinctio omnis ipsa alias.</p>
+<ol>
+<li>Provident, enim, fugiat, ea officia cupiditate</li>
+<li>Animi ipsa asperiores nostrum</li>
+<li>Vero hic eligendi voluptatem veritatis dignissimos nemo qui esse exercitationem</li>
+<li>Esse, reiciendis, qui tempore nobis quidem obcaecati quae molestiae</li>
+</ol>
+<p>Omnis dolorum quia quisquam cum repudiandae amet natus repellat voluptates optio ratione ut est vitae rem assumenda iste illo illum dolore neque ipsa quis.</p>]]>
+    </content>
+  </entry>
+</feed>

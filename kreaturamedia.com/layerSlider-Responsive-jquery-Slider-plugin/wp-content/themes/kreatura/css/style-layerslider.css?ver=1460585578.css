@@ -1,0 +1,248 @@
+
+
+
+/* DEFAULT COLORS & BACKGROUNDS */
+
+
+
+/* BODY, HTML, LAYOUT */
+
+html {
+	background: white;
+}
+
+
+
+/* HEADER */
+
+header, header .content {
+	height: 170px;
+}
+
+header h1 {
+	color: #333;
+	text-shadow: none;
+}
+
+header h1 span {
+	color: #999;
+}
+
+/* Header navigation */
+
+header nav {
+	position: absolute;
+	left: 0px;
+	right: auto;
+	top: auto;
+	bottom: 20px;
+	width: 100%;
+	height: 36px;
+}
+
+header nav ul {
+	background: #f4f4f4 !important;
+	border-radius: 4px;
+	border-top: 1px solid #ddd;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+header nav a,
+header nav span {
+	background: transparent;
+}
+
+header nav li,
+header nav a,
+header nav span {
+	font-size: 96%;
+}
+
+header h1 .ver {
+	color: #cd3300;
+	display: inline;
+	position: relative;
+	font-size: 100%;
+	top: auto;
+}
+
+
+
+/* SLIDER */
+
+.slider-container {
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+
+
+
+/* CONTENT */
+
+#content .bg-top-container {
+	height: 0;
+}
+
+#content img.bg-top {
+	width: 100%;
+	height: 100%;
+}
+
+#content .bg {
+	height: 100%;
+	top: 0;
+}
+
+
+
+/* Sections */
+
+#content .sep {
+	border-top: 1px dotted #ccc;
+}
+
+.version-recommender a {
+	color: #111;
+	background: #ddd;
+	background: rgba(0,0,0,.1);
+}
+
+.version-recommender a:hover {
+	color: white;
+	background: #cd3300;
+}
+
+#content section.highlighted h3,
+#content section h3.highlighted {
+	color: #cd3300;
+}
+
+header nav ul,
+header nav .list {
+	background: white;
+}
+
+#get,
+#get:hover {
+	color: white;
+	background: #cd3300;
+}
+
+.get {
+	color: white;
+	background: #cd3300;
+}
+
+header nav a,
+header nav span,
+header nav ul li ul li a,
+header nav ul li:hover ul li a {
+	color: #333;
+}
+
+header nav ul li:hover a,
+header nav ul li:hover span,
+header nav ul li ul li:hover a,
+.cur-list-item:hover {
+	color: white;
+	background: #777;
+}
+
+.cur-list-item:hover {
+	color: white;
+	background: #cd3300;
+}
+
+header nav ul li:hover a,
+header nav ul li:hover span,
+header nav ul li ul li:hover a {
+	margin-top: -1px;
+	border-top: 1px solid #999;
+}
+
+header nav ul li .new {
+	position: absolute;
+	top: -5px;
+	right: 1px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size: 70%;
+	color: white;
+	padding: 0px 3px;
+	background: #cd3300;
+	font-weight: bold;
+	box-shadow: 0px 1px 3px -1px black;
+}
+
+header nav ul li:hover .new {
+	transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	box-shadow: 0px 2px 6px -2px black;
+	top: -10px;
+	font-size: 100%;
+}
+
+#content .list {
+	background: #cd3300;
+}
+
+.cur-list-item .list b {
+	border-top: 10px solid #cd3300;
+}
+
+header .list b {
+	border-bottom: 10px solid white;
+}
+
+.selectable-list-item:hover,
+.list .highlighted {
+	background: #b72d00;
+}
+
+.list-title {
+	border-bottom: 1px solid #e58d84;
+}
+
+.list .scroll {
+	color: black;
+}
+
+
+
+/* FOOTER */
+
+footer {
+	border-top: 1px solid #bf1a41;
+}
+
+footer .bg {
+	background: #cd3300;
+	opacity: .75;
+	filter: alpha(opacity=75);
+}
+
+footer a:hover {
+	color: #111;
+}
+
+
+/* SLIDER SPECIFIC */
+
+.ls-container a {
+	font-family: 'Open Sans' !important;
+	font-weight: 400 !important;
+	color: rgb(222, 242, 255);
+	color: rgba(222, 242, 255, .6);
+}
+
+.ls-container a:hover {
+	color: rgb(222, 242, 255);
+}

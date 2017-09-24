@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="MYOB" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Twitter Bootstrap tips, tricks and tutorial - ShapeBootstrap</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://shapebootstrap.net"/>
+	<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks</id>
+	<updated>2016-05-24T21:31:43+06:00</updated>
+	<author>
+		<name>ShapeBootstrap</name>
+		<email>support@shapebootstrap.net</email>
+	</author>
+	<generator>MYOB</generator>
+	<link rel="self" type="application/atom+xml" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks?format=feed&amp;type=atom"/>
+	<entry>
+		<title>10 powerful JavaScript tools for Bootstrap developers</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/63-10-powerful-javascript-tools-for-bootstrap-developers"/>
+		<published>2016-03-31T20:15:39+06:00</published>
+		<updated>2016-03-31T20:15:39+06:00</updated>
+		<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/63-10-powerful-javascript-tools-for-bootstrap-developers</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;A few days ago, I shared some amazing CSS snippets for Bootstrap based developers. That post was well-received by our valuable readers. Actually, developers are too busy to explore the deep web for discovering all the great resources. That’s why today I’m back here again with some more dev tools. Let’s check some JavaScript resources that you will find useful.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;A few days ago, I shared some amazing CSS snippets for Bootstrap based developers. That post was well-received by our valuable readers. Actually, developers are too busy to explore the deep web for discovering all the great resources. That’s why today I’m back here again with some more dev tools. Let’s check some JavaScript resources that you will find useful.&lt;/p&gt;
+</content>
+		<category term="Bootstrap Tips and Tricks" />
+	</entry>
+	<entry>
+		<title>7 free social button sets for Bootstrap</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/59-7-free-social-button-sets-for-bootstrap"/>
+		<published>2016-03-07T20:34:19+06:00</published>
+		<updated>2016-03-07T20:34:19+06:00</updated>
+		<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/59-7-free-social-button-sets-for-bootstrap</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Social networking sites play a vital role in today’s internet age. These channels help sites get more traffic and better user engagement. One must incorporate social tools into their online assets to ensure easier interaction. However, it takes some efforts to integrate social media tools with a website. Luckily, there are many readymade social networking tools thanks to the dev community. Here are 7 sources of social sharing buttons for Bootstrap. &lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Social networking sites play a vital role in today’s internet age. These channels help sites get more traffic and better user engagement. One must incorporate social tools into their online assets to ensure easier interaction. However, it takes some efforts to integrate social media tools with a website. Luckily, there are many readymade social networking tools thanks to the dev community. Here are 7 sources of social sharing buttons for Bootstrap. &lt;/p&gt;
+</content>
+		<category term="Bootstrap Tips and Tricks" />
+	</entry>
+	<entry>
+		<title>5 awesome free Bootstrap button generators online</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/56-5-awesome-free-bootstrap-button-generators-online"/>
+		<published>2016-03-02T19:51:38+06:00</published>
+		<updated>2016-03-02T19:51:38+06:00</updated>
+		<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/56-5-awesome-free-bootstrap-button-generators-online</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Bootstrap has built-in button designs and predefined button colors that can be readily used. If you want to get more out of these readymade button set, you can customize them. Also there are online button generators to create Bootstrap buttons with versatile colors, dimensions, effects, icons and more. Let’s see some of such free services.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Bootstrap has built-in button designs and predefined button colors that can be readily used. If you want to get more out of these readymade button set, you can customize them. Also there are online button generators to create Bootstrap buttons with versatile colors, dimensions, effects, icons and more. Let’s see some of such free services.&lt;/p&gt;
+</content>
+		<category term="Bootstrap Tips and Tricks" />
+	</entry>
+	<entry>
+		<title>5 free Bootstrap table plugins for better data presentation</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/53-5-free-bootstrap-table-plugins-for-better-data-presentation"/>
+		<published>2016-02-24T18:08:18+06:00</published>
+		<updated>2016-02-24T18:08:18+06:00</updated>
+		<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/53-5-free-bootstrap-table-plugins-for-better-data-presentation</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Bootstrap infrastructure includes several table styles that can fulfill most of your data visualisation needs. You get the basic, simple, row based table design to bordered and colored ones. These built-in table structures can lessen development time a lot. If you need more table functions, you may use additional plugins for this. I’ve gathered 5 free Bootstrap table plugins. Let’s see them.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Bootstrap infrastructure includes several table styles that can fulfill most of your data visualisation needs. You get the basic, simple, row based table design to bordered and colored ones. These built-in table structures can lessen development time a lot. If you need more table functions, you may use additional plugins for this. I’ve gathered 5 free Bootstrap table plugins. Let’s see them.&lt;/p&gt;
+</content>
+		<category term="Bootstrap Tips and Tricks" />
+	</entry>
+	<entry>
+		<title>Customize Bootstrap designs to make it more attractive</title>
+		<link rel="alternate" type="text/html" href="https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/52-customize-bootstrap-designs-to-make-it-more-attractive"/>
+		<published>2016-02-22T23:31:37+06:00</published>
+		<updated>2016-02-22T23:31:37+06:00</updated>
+		<id>https://shapebootstrap.net/blog/28-web-tips-and-tricks/bootstrap-tips-and-tricks/52-customize-bootstrap-designs-to-make-it-more-attractive</id>
+		<author>
+			<name>Arafat Bin Sultan</name>
+			<email>mdarafat2008@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;Many people use Bootstrap because of its responsive nature and tons of built-in elements. The framework drastically abates the hassle and time required by developers. There are ready-made button designs, menu structures, scripts and more loaded inside Bootstrap. It’s always a good idea to do some customization to your Bootstrap design so it looks more innovative and of course, more beautiful. Let’s see some ways.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Many people use Bootstrap because of its responsive nature and tons of built-in elements. The framework drastically abates the hassle and time required by developers. There are ready-made button designs, menu structures, scripts and more loaded inside Bootstrap. It’s always a good idea to do some customization to your Bootstrap design so it looks more innovative and of course, more beautiful. Let’s see some ways.&lt;/p&gt;
+</content>
+		<category term="Bootstrap Tips and Tricks" />
+	</entry>
+</feed>
